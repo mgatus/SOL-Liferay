@@ -1,0 +1,259 @@
+// !compileOnSave
+
+$mainColor: #169B79
+
+.mini-info
+  clear: both
+  margin: 2% 0 0
+  font-size: 1.5rem
+  color: #666666
+
+#its-us-you-need
+  padding: 15px
+  // min-height: 75vh
+  display: flex
+  // justify-content: center
+  // align-items: center
+  padding: 5% 0
+  .container
+    width: 1152px
+    max-width: 1152px
+    .columns
+      margin-top: 1%
+      width: 100%
+      float: none !important
+  h2
+    color: #666666
+    font-family: 'Montserrat', sans-serif
+    font-size: 2rem !important
+  hr
+    width: 72px
+    height: 2px
+    background-color: $mainColor
+    clear: both
+    display: block
+    float: left
+    border: 2px solid $mainColor
+
+
+#what-we-offer
+  @extend #its-us-you-need
+  background: #FAFAFA
+  // min-height: 100vh
+  padding: 5% 0
+  .columns
+    margin-bottom: 0 !important
+    margin-top: 0 !important
+
+  .blocks
+    text-align: center
+
+    .contents
+      border: 1px solid rgba(204, 204, 204, 0.8)
+      // box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.18)
+      // min-height: 40vh
+      margin-bottom: 0
+      margin-top: 0px
+      padding: 20% 5%
+      color: #666666
+      position: relative
+      background: #fff
+
+      h5
+        font-weight: 700
+        color: $mainColor
+        font-size: 1.3rem
+        padding: 8px 0
+      p
+        transition: all 0s ease !important
+        line-height: 1.8rem
+      i.fa
+        font-size: 2rem
+        color: #666666
+        margin-bottom: 15px
+      .button
+        margin: 8px auto
+        color: #fff
+        transition: all 0s ease !important
+        position: relative
+        left: 0
+        right: 0
+      &:hover
+        background: $mainColor
+        color: #fff
+        i.fa,h5
+          color: #fff
+        .button
+          background: #fff
+          color: $mainColor
+
+#how-we-work
+  @extend #its-us-you-need
+  min-height: 100vh
+  padding: 5% 0
+  article
+    padding: 3% 0
+    h3
+      font-size: 1.5rem
+      padding: 0 0 2%
+
+#featured-online-course
+  background: #FAFAFA
+  // min-height: 100vh
+  padding: 5% 0
+  .container
+    max-width: 1152px
+
+  .mini-info
+    margin: 2% 0
+  h2
+    color: #666666
+    font-family: 'Montserrat', sans-serif
+    font-size: 2rem !important
+  hr
+    width: 72px
+    height: 2px
+    background-color: $mainColor
+    clear: both
+    display: block
+    float: left
+  .item
+    padding: 0 !important
+    min-height: 20vh
+    background: #fff
+    margin: 0 25px 0 25px
+    border: 1px solid #e2e2e2
+    outline: none
+    img
+      width: 100%
+      min-width: 100%
+    .information
+      padding: 15px
+      text-align: center
+      h4
+        border-bottom: 1px solid #e2e2e2
+        padding: 8px
+        margin-bottom: 15px
+        text-align: left
+      .price,.description
+        text-align: left
+      .price
+        margin-bottom: 15px
+        strong
+          border-right: 1px solid #e2e2e2
+          padding-right: 8px
+          margin-right: 8px
+      .button
+        margin: 5% auto
+
+#solutions
+  background-image: url('./../img/Solutions.png')
+  background-position: center
+  background-repeat: no-repeat
+  background-color: $mainColor
+  // height: 50vh
+  color: #fff
+  text-align: center
+  padding: 7%
+  .solution-content
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    margin-bottom: 2%
+    h2
+      font-size: 2rem
+      margin-bottom: 2%
+      font-family: 'Montserrat', sans-serif
+
+#enquire-div
+  background-image: url('./../img/enquirebg.png')
+  background-position: top center
+  background-repeat: no-repeat
+  background-size: cover
+  text-align: center
+  overflow: hidden
+  transition: all 0.5s ease
+  background-attachment: fixed
+  .enquire-content
+    display: flex
+    text-align: right
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    .headtext
+      margin: 0 2%
+    h3
+      font-size: 2rem
+      color: $mainColor
+    .button
+      width: 10%
+    .close-enquirebtn
+      display: none
+
+  .form-enquire
+    padding: 1% 0
+    margin: 0 auto
+    width: 30%
+    opacity: 0
+    .control
+      margin: 3% 0
+    &.show
+      opacity: 1
+    input.input
+      border-radius: 30px
+    textarea
+      border-radius: 10px
+
+.enquire-expand
+  height: 100vh !important
+
+.course-update-radio
+  margin: 0 2%
+  .radio
+    width: 100%
+    margin: 0
+  strong
+    text-align: left
+    color: #666666
+    float: left
+    clear: both
+    width: 100%
+    margin: 3% 0
+
+#what-new-and-upcoming
+  @extend #its-us-you-need
+  background: #FAFAFA
+  .item-box
+    box-shadow: 0px 0px 1px #929292
+    padding: 0 0 5%
+  .content
+    padding: 0 10%
+    h5
+      color: $mainColor
+      font-weight: 700
+      margin: 2% 0
+    small,date
+      font-size: 0.9rem
+      width: 100%
+      display: block
+      margin: 2% 0
+    small,p
+      color: #666666
+    p
+      font-size: 0.8rem
+    a
+      margin-bottom: 5%
+      color: $mainColor
+
+#our-partners
+  @extend #its-us-you-need
+  .client-listing
+    margin: 5% 0
+    text-align: center
+    img
+      width: 70%
+
+// Slick overrides
+.slick-prev:before, .slick-next:before
+  color: #666666

@@ -1,0 +1,41 @@
+<header class="fixed-top">
+    <nav class="container">
+
+      <!-- Navigation Toggle  -->
+      <button class="button navbar-toggler navbar-toggler-right so-menu-toggle" type="button">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </button>
+
+
+      <div class="columns">
+        <div class="column is-one-quarter">
+          <a class="navbar-brand col-3 so-logo" href="#" title="Site Online">Site Online</a>
+          <!--<img alt="$logo_description" height="$site_logo_height" src="$site_logo" width="$site_logo_width" />-->
+        </div>
+        <div class="column">
+          <div class="mobile-nav navbar-collapse " id="navbarNav">
+          	<!-- Navigation -->
+            #parse ("$full_templates_path/navigation.vm")
+            <!-- End Navigation -->
+
+            <div class="special-corner">
+              <a class="button demo" href="#" role="button">DEMO</a>
+              <a class="button enquire" href="#" role="button">ENQUIRE NOW</a>
+              <div class="field">
+                <div class="control search has-icons-left has-icons-right">
+                  <input class="searchinput" type="text" placeholder="Text input" value="bulma">
+                  <span class="icon is-small is-left">
+                    <i class="fa fa-search"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="overlay-nav"></div>
+        </div>
+      </div>
+
+
+
+    </nav>
+  </header>

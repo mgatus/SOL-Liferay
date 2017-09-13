@@ -1,0 +1,257 @@
+// !compileOnSave
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700')
+@import url('https://fonts.googleapis.com/css?family=Montserrat')
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
+
+$mainColor: #169B79
+
+*
+  transition: all 0.2s ease
+
+h1,h2,h3,h4,h5,h6
+  font-family: 'Montserrat', sans-serif !important
+
+.overlay-nav
+  position: fixed
+  background: rgba(51, 51, 51, 0.45)
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  z-index: 1001
+  display: none
+.button
+  border-radius: 30px
+  background: $mainColor !important
+  color: #fff
+  &:hover,&:focus,&:active
+    color: $mainColor !important
+    background: #fff !important
+    text-decoration: none !important
+
+.white-button
+  background: #fff
+  color: $mainColor
+
+.main-text-color
+  color: $mainColor
+.background-color
+  background-color: $mainColor
+
+body
+  font-family: 'Open Sans', sans-serif
+  font-size: 100%
+
+header
+  background: rgba(255, 255, 255, 0.97)
+  padding: 15px 0
+
+  nav
+    padding: 25px 0 !important
+
+  &.fixed-top
+    position: fixed
+    width: 100%
+    z-index: 999
+
+.so-logo
+  background-image: url('./../img/SO_Green.png')
+  background-repeat: no-repeat
+  background-position: left
+  text-indent: -9999px
+  height: 62.2px
+
+// ************* Navigation
+.so-menu-toggle
+  transition: all 0.1s
+  color: #333
+  outline: none
+  background: transparent
+  float: right
+  border: none
+  display: none
+  margin-right: 5% !important
+  position: relative
+  background: transparent !important
+  &:focus
+    transition: all 0.1s
+    outline: none
+    transition: none
+
+.toggle-active
+  color: $mainColor
+
+#navbarNav
+  display: flex
+  flex-direction: column-reverse
+  .navbar-nav
+    display: flex
+    justify-content: flex-end
+    a
+      color: #666666
+      font-weight: 700
+      &:hover
+        color: $mainColor
+        text-decoration: none
+
+.special-corner
+  display: flex
+  justify-content: flex-end
+  margin-bottom: 15px
+  a
+    border-radius: 30px
+    font-size: 0.7rem
+    height: 31px
+    color: #fff
+    &:hover
+      background: #fff !important
+      color: $mainColor !important
+      text-decoration: none
+  a.demo
+    background: #95989A !important
+    border: 1px solid #868686
+    &:hover
+      background: #fff !important
+      color: $mainColor !important
+      text-decoration: none
+  a.enquire
+    background: $mainColor !important
+    border: 1px solid $mainColor
+    &:hover
+      background: #fff !important
+      color: $mainColor !important
+      text-decoration: none
+  > *
+    margin: 0 5px
+
+  .control.search
+    input[type="text"]
+      height: 31px
+      border-radius: 30px
+      border-left: 0
+      background: transparent
+      border: 1px solid #bfbfbf
+      color: #666666
+      padding-left: 2.25em
+      outline: none
+    .icon
+      top: -3px
+
+// ************* Upper content
+.banner-upper-content
+  background-image: url('./../img/mainBanner.png')
+  background-size: cover
+  background-attachment: fixed
+  background-position: center
+  min-height: 100vh
+  // padding-top: 160px
+  .breadcrumbs
+    display: none
+    ul
+      list-style: none
+      width: 100%
+      float: left
+      li
+        display: list-item
+        float: left
+        margin: 0 8px
+        border-right: 1px solid #666666
+        padding: 0 8px
+
+  .upper-contents
+    .tagline
+      text-align: center
+      margin-top: 18vw
+      h1
+        font-weight: 700 !important
+        font-size: 3rem
+        color: #666666
+        font-family: 'Open Sans', sans-serif
+      small
+        font-size: 1rem
+        color: #666666
+
+// +++++ halfbanner +++++//
+.half-banner
+  background-image: url('./../img/maskgroup.png')
+  min-height: 60vh
+  position: relative
+  align-items: center
+  .tagline
+    text-align: left !important
+    margin-top: 16vw !important
+    h1
+      color: $mainColor !important
+    small
+      max-width: 50% !important
+      display: block
+.info-tags
+  min-height: 10vh
+  border: 1px solid #dedede
+  background: #fff
+  position: relative
+  z-index: 10
+  bottom: 80px
+
+  .columns
+    padding: 20px 40px
+    .column
+      background-repeat: no-repeat
+      background-size: auto
+      background-position: left
+      background-repeat: no-repeat
+      padding-left: 90px
+  .search
+    background: url('./../img/search.png')
+  .play
+    background: url('./../img/play.png')
+  .mobile
+    background: url('./../img/mobile.png')
+    padding-left: 90px !important
+
+// ************* Lower content
+.lower-content
+  article
+    line-height: 2rem
+    color: #666666
+    font-size: 1.1rem !important
+    .info
+      img
+        width: 100%
+
+// ************* Footer
+
+footer
+  padding: 5% 0
+  background: #FCFCFC
+  display: flex !important
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  strong
+    color: $mainColor
+  .social-icons
+    margin: 1% 0
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 5%
+    .fa-facebook-official
+      color: #4267b2
+    .fa-linkedin-square
+      color: rgb(0, 115, 176)
+    .fa-youtube-play
+      color: #ff0000
+  .footer-links
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 28%
+    a
+      color: #666666
+  hr
+    color: #333
+    width: 70%
+  h6 small
+    font-size: 0.8rem

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+#parse ($init)
+
+<html class="$root_css_class" dir="#language ("lang.dir")" lang="$w3c_language_id">
+
+<head>
+	<title>$the_title - $company_name</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	$theme.include($top_head_include)
+
+	<!-- Override Aui  -->
+	<link href="$themeDisplay.getPathThemeRoot()/css/override.css" rel="stylesheet" />
+
+	<!-- Bulma Framework  -->
+	<link href="$themeDisplay.getPathThemeRoot()/css/bulma.css" rel="stylesheet" />
+
+	<!-- Custom CSS -->
+  	<link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/so.css">
+
+  	<!-- Plugins CSS  -->
+  	<link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/slick.css">
+  	<link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/slick-theme.css">
+
+  	<!-- Additional Custom CSS  -->
+  	<link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/article.css">
+
+  	<!-- Media Query CSS -->
+  	<link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/mq.css">
+
+  	<!-- jQuery scripts -->
+	<script src="$themeDisplay.getPathThemeRoot()/js/jquery.slim.min.js"></script>
+
+
+</head>
+
+<body class="$css_class">
+<!-- <body> -->
+
+<a href="#main-content" id="skip-to-content">#language ("skip-to-content")</a>
+
+$theme.include($body_top_include)
+
+#if ($is_signed_in)
+	#dockbar()
+#end
+
+#parse ("$full_templates_path/header.vm")
+
+<!-- <div class="banner-upper-content">
+    <div class="upper-contents container">
+      <div class="breadcrumbs">
+        #breadcrumbs()
+      </div>
+      <div class="tagline">
+        <h1>Learn Better, Achieve More</h1>
+        <small>We Provide custom learning solutions</small>
+      </div>
+    </div>
+ </div> -->
+
+<div class="main-selectable">
+	#if ($selectable)
+		$theme.include($content_include)
+	#else
+		$portletDisplay.recycle()
+
+		$portletDisplay.setTitle($the_title)
+
+		$theme.wrapPortlet("portlet.vm", $content_include)
+	#end
+</div>
+
+#parse ("$full_templates_path/footer.vm")
+
+<!-- jQuery scripts -->
+<script src="$themeDisplay.getPathThemeRoot()/js/slick.min.js"></script>
+<!-- Custom css -->
+<script src="$themeDisplay.getPathThemeRoot()/js/custom.js"></script>
+
+$theme.include($body_bottom_include)
+
+$theme.include($bottom_include)
+
+</body>
+
+</html>
