@@ -63,7 +63,7 @@ $(function() {
 });
 
 // **** overrides
-$('.site-add-controls a').on('click', function(){
-  setTimeout(function(){ $('.lfr-has-add-content .lfr-add-panel.lfr-admin-panel .nav-list').hide().removeClass('nav').show(100); }, 500);
+// $('.site-add-controls a').on('click', function(){
+//   setTimeout(function(){ $('.lfr-has-add-content .lfr-add-panel.lfr-admin-panel .nav-list').hide().removeClass('nav').show(100); }, 500);
 
-});
+// });

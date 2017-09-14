@@ -31,7 +31,7 @@
   	<link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/mq.css">
 
   	<!-- jQuery scripts -->
-	<script src="$themeDisplay.getPathThemeRoot()/js/jquery.slim.min.js"></script>
+	<script src="$themeDisplay.getPathThemeRoot()/js/jquery-3.2.1.min.js"></script>
 
 
 </head>
@@ -45,7 +45,7 @@ $theme.include($body_top_include)
 
 #if ($is_signed_in)
 	#dockbar()
-#end
+#end   
 
 #parse ("$full_templates_path/header.vm")
 

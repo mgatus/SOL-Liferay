@@ -61,6 +61,16 @@ header.fixed-top {
   position: fixed;
   width: 100%;
   z-index: 999;
+  padding: 0;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .so-logo {
@@ -69,6 +79,7 @@ header.fixed-top {
   background-position: left;
   text-indent: -9999px;
   height: 62.2px;
+  width: 112px;
 }
 
 .so-menu-toggle {
@@ -224,7 +235,7 @@ header.fixed-top {
 }
 .half-banner .tagline {
   text-align: left !important;
-  margin-top: 16vw !important;
+  margin-top: 15vw !important;
 }
 .half-banner .tagline h1 {
   color: #169B79 !important;
@@ -240,20 +251,24 @@ header.fixed-top {
   background: #fff;
   position: relative;
   z-index: 10;
-  bottom: 80px;
+  bottom: 48px;
 }
 .info-tags .columns {
   padding: 20px 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .info-tags .columns .column {
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: left;
+  background-position: 25px 0;
   background-repeat: no-repeat;
   padding-left: 90px;
 }
 .info-tags .search {
   background: url("./../img/search.png");
+  background-position: 0 5px;
 }
 .info-tags .play {
   background: url("./../img/play.png");
@@ -335,6 +350,14 @@ footer hr {
 }
 footer h6 small {
   font-size: 0.8rem;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #666666 !important;
+}
+
+.slick-initialized .slick-slide {
+  outline: none !important;
 }
 
 /*# sourceMappingURL=so.css.map */

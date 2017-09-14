@@ -54,6 +54,11 @@ header
     position: fixed
     width: 100%
     z-index: 999
+    padding: 0
+
+.logo
+  display: flex
+  align-items: center
 
 .so-logo
   background-image: url('./../img/SO_Green.png')
@@ -61,6 +66,7 @@ header
   background-position: left
   text-indent: -9999px
   height: 62.2px
+  width: 112px
 
 // ************* Navigation
 .so-menu-toggle
@@ -180,7 +186,7 @@ header
   align-items: center
   .tagline
     text-align: left !important
-    margin-top: 16vw !important
+    margin-top: 15vw !important
     h1
       color: $mainColor !important
     small
@@ -192,18 +198,20 @@ header
   background: #fff
   position: relative
   z-index: 10
-  bottom: 80px
+  bottom: 48px
 
   .columns
     padding: 20px 40px
+    align-items: center
     .column
       background-repeat: no-repeat
       background-size: auto
-      background-position: left
+      background-position: 25px 0
       background-repeat: no-repeat
       padding-left: 90px
   .search
     background: url('./../img/search.png')
+    background-position: 0 5px
   .play
     background: url('./../img/play.png')
   .mobile
@@ -255,3 +263,11 @@ footer
     width: 70%
   h6 small
     font-size: 0.8rem
+
+.slick-prev:before, .slick-next:before
+  color: #666666 !important
+
+.slick-initialized .slick-slide
+  outline: none !important
+
+

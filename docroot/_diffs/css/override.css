@@ -100,6 +100,19 @@ h1.portlet-title {
   top: 181px;
 }
 
+.signed-in .portlet-topper {
+  position: relative;
+  top: 153px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.33);
+  z-index: 1;
+  color: #fff;
+}
+
+.signed-out .portlet-topper {
+  display: none;
+}
+
 @media (max-width: 33.9em) {
   .aui .dockbar.navbar-static-top {
     position: inherit !important;

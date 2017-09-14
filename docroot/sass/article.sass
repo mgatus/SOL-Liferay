@@ -2,6 +2,7 @@
 
 $mainColor: #169B79
 
+// +++++++++++++++++++++++ HOMEPAGE ++++++++++++++++++++++++++++//
 .mini-info
   clear: both
   margin: 2% 0 0
@@ -151,6 +152,7 @@ $mainColor: #169B79
   background-position: center
   background-repeat: no-repeat
   background-color: $mainColor
+  background-size: cover
   // height: 50vh
   color: #fff
   text-align: center
@@ -254,6 +256,42 @@ $mainColor: #169B79
     img
       width: 70%
 
-// Slick overrides
-.slick-prev:before, .slick-next:before
-  color: #666666
+// +++++++++++++++++++++++ ABOUT ++++++++++++++++++++++++++++//
+#our-aim
+  @extend #its-us-you-need
+  h4
+    color: $mainColor
+    margin-bottom: 15px
+    padding-right: 3%
+    padding-left: 7px
+    font-size: 1.5REM
+    font-weight: 700
+  .infograph
+    img
+      padding-right: 50px
+  ul
+    list-style: disc !important
+    margin-left: 3%
+    width: 98%
+    li
+      margin: 2% 0
+
+#delivery-models
+  @extend #its-us-you-need
+  .columns
+    text-align: center
+    .img-tags
+      img
+        border-radius: 50%
+        margin-bottom: 5%
+    h5
+      color: $mainColor
+
+#products-services
+  @extend #solutions
+  background-image: url('./../img/products.png')
+  ul
+    text-align: left
+    list-style: disc
+    li
+      margin: 2% 0
