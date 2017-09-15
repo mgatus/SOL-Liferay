@@ -101,7 +101,8 @@ h1.portlet-title {
 }
 
 .signed-in .portlet-topper {
-  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
   top: 153px;
   text-align: center;
   background: rgba(0, 0, 0, 0.33);
@@ -133,5 +134,4 @@ h1.portlet-title {
     margin-top: 0;
   }
 }
-
 /*# sourceMappingURL=override.css.map */

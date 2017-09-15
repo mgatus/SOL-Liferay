@@ -82,15 +82,15 @@
   right: 0;
 }
 #what-we-offer .blocks .contents:hover {
-  background: #169B79;
-  color: #fff;
+  background: #169B79 !important;
+  color: #fff !important;
 }
 #what-we-offer .blocks .contents:hover i.fa, #what-we-offer .blocks .contents:hover h5 {
   color: #fff;
 }
 #what-we-offer .blocks .contents:hover .button {
-  background: #fff;
-  color: #169B79;
+  background: #fff !important;
+  color: #169B79 !important;
 }
 
 #how-we-work {
@@ -240,20 +240,51 @@
 #enquire-div .form-enquire {
   padding: 1% 0;
   margin: 0 auto;
-  width: 30%;
+  width: 30% !important;
   opacity: 0;
 }
 #enquire-div .form-enquire .control {
-  margin: 3% 0;
+  margin: 3% 0 !important;
 }
 #enquire-div .form-enquire.show {
   opacity: 1;
 }
 #enquire-div .form-enquire input.input {
   border-radius: 30px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 1rem;
+  height: 2.25em;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  line-height: 1.5;
+  padding-bottom: calc(0.375em - 1px);
+  padding-top: calc(0.375em - 1px);
+  position: relative;
+  vertical-align: top;
+  background-color: white;
+  border-color: #dbdbdb;
+  color: #363636;
+  -webkit-box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+  box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+  max-width: 100%;
+  width: 100%;
 }
 #enquire-div .form-enquire textarea {
   border-radius: 10px;
+}
+#enquire-div .form-enquire label {
+  display: inline-block;
 }
 
 .enquire-expand {

@@ -17,6 +17,9 @@
 	<!-- Bulma Framework  -->
 	<link href="$themeDisplay.getPathThemeRoot()/css/bulma.css" rel="stylesheet" />
 
+	<!-- Font awesome -->
+	<link href="$themeDisplay.getPathThemeRoot()/css/font-awesome.min.css" rel="stylesheet" />
+
 	<!-- Custom CSS -->
   	<link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/so.css">
 
@@ -52,7 +55,7 @@ $theme.include($body_top_include)
 <!-- <div class="banner-upper-content">
     <div class="upper-contents container">
       <div class="breadcrumbs">
-        #breadcrumbs()
+        #breadcrumbs()    
       </div>
       <div class="tagline">
         <h1>Learn Better, Achieve More</h1>

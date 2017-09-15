@@ -1,0 +1,138 @@
+body {
+  padding: 0 !important;
+}
+
+.aui body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.aui .modal {
+  transition: none;
+  z-index: 9999 !important;
+}
+
+.aui .dockbar .navbar-inner {
+  width: 100%;
+}
+
+.aui .navbar .nav {
+  z-index: 9997;
+}
+
+.aui .navbar .nav a {
+  background: #fff !important;
+  margin: 0 !important;
+}
+
+.nav-add-controls {
+  z-index: 0 !important;
+}
+
+.direction-down {
+  transition: none;
+}
+
+.aui .lfr-admin-panel {
+  z-index: 9998;
+}
+
+.dockbar-messages {
+  display: none;
+}
+
+.ltr .column, .rtl .column-last {
+  float: none;
+}
+
+.aui .navbar-inner {
+  background: #fff !important;
+}
+
+.aui .dockbar .navbar-inner .site-administration-menu li {
+  text-align: left;
+}
+
+span.site-name {
+  color: #666666;
+}
+
+.dockbar .dropdown-menu a:hover {
+  color: #666666 !important;
+}
+
+.portlet-content, .portlet-minimized .portlet-content-container {
+  padding: 0 !important;
+}
+
+h1.portlet-title {
+  display: none;
+}
+
+.signed-in h1.portlet-title {
+  display: block;
+}
+
+.add-content-menu .container {
+  width: 100% !important;
+}
+
+.add-content-menu .input-container > * {
+  width: 320px !important;
+}
+
+.aui .open > .dropdown-menu {
+  display: block !important;
+}
+
+.toggler-content.toggler-content-expanded span.add-content-item {
+  background: #fff;
+  border-radius: 10px;
+}
+
+#manageRecentPanelContent .container {
+  width: 100% !important;
+}
+
+#manageRecentPanelContent .nav {
+  display: block !important;
+}
+
+.SOLHeader-portlet.portlet-draggable .portlet-topper {
+  top: 181px;
+}
+
+.signed-in .portlet-topper {
+  position: relative;
+  top: 153px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.33);
+  z-index: 1;
+  color: #fff;
+}
+
+.signed-out .portlet-topper {
+  display: none;
+}
+
+@media (max-width: 33.9em) {
+  .aui .dockbar.navbar-static-top {
+    position: inherit !important;
+    z-index: 9999;
+  }
+  body.controls-visible {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 47.9em) {
+  .aui .dockbar.navbar-static-top {
+    position: inherit !important;
+    z-index: 9999;
+  }
+  body.controls-visible {
+    margin-top: 0;
+  }
+}
+ 
+
+ /*# sourceMappingURL= override.css.map */

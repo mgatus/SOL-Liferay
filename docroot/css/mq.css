@@ -3,6 +3,10 @@
     width: 100%;
   }
 
+  .half-banner {
+    min-height: 70vh;
+  }
+
   .so-menu-toggle {
     display: block;
   }
@@ -109,6 +113,10 @@
 @media (max-width: 47.9em) {
   header .container {
     width: 100%;
+  }
+
+  .half-banner {
+    min-height: 70vh;
   }
 
   .so-menu-toggle {

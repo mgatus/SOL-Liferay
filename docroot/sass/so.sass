@@ -4,6 +4,19 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat')
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
 
+@font-face
+  font-family: 'Open Sans'
+  font-style: normal
+  font-weight: 300
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url(Open_Sans/OpenSans-Regular) format("ttf")
+
+@font-face
+  font-family: 'Montserrat'
+  font-style: normal
+  font-weight: 300
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url(Montserrat/Montserrat-Regular) format("ttf")
+
+
 $mainColor: #169B79
 
 *
@@ -24,7 +37,7 @@ h1,h2,h3,h4,h5,h6
 .button
   border-radius: 30px
   background: $mainColor !important
-  color: #fff
+  color: #fff !important
   &:hover,&:focus,&:active
     color: $mainColor !important
     background: #fff !important
