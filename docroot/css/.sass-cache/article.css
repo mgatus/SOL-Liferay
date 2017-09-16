@@ -306,6 +306,9 @@
   box-shadow: 0px 0px 1px #929292;
   padding: 0 0 5%; }
 
+#what-new-and-upcoming .item-box img {
+  width: 100%; }
+
 #what-new-and-upcoming .content {
   padding: 0 10%; }
 

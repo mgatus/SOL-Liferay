@@ -15,7 +15,8 @@
   transition: all 0.2s ease; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif !important; }
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: normal !important; }
 
 .overlay-nav {
   position: fixed;
