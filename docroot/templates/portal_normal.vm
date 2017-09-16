@@ -36,6 +36,9 @@
   	<!-- jQuery scripts -->
 	<script src="$themeDisplay.getPathThemeRoot()/js/jquery-3.2.1.min.js"></script>
 
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 </head>
 
