@@ -13,6 +13,7 @@
 
   .so-logo {
     background-position: 15% 0;
+    margin-left: 15%;
   }
 
   .block-overlay {
@@ -69,7 +70,7 @@
     z-index: 2500;
   }
 
-  .upper-contents .banner-upper-content .tagline {
+  .upper-content .banner-upper-content .tagline {
     margin-top: 28vw;
   }
 
@@ -125,6 +126,7 @@
 
   .so-logo {
     background-position: 15% 0;
+    margin-left: 15%;
   }
 
   .tagline {
@@ -181,7 +183,7 @@
     z-index: 2500;
   }
 
-  .upper-contents .banner-upper-content .tagline {
+  .upper-content .banner-upper-content .tagline {
     margin-top: 28vw;
   }
 
