@@ -111,6 +111,7 @@ header.fixed-top {
   margin-right: 5% !important;
   position: relative;
   background: transparent !important;
+  font-size: 1.5rem !important;
 }
 .so-menu-toggle:focus {
   -webkit-transition: all 0.1s;
@@ -336,6 +337,9 @@ footer .social-icons {
       -ms-flex-align: center;
           align-items: center;
   width: 5%;
+}
+footer .social-icons a {
+  margin: 0 2%;
 }
 footer .social-icons .fa-facebook-official {
   color: #4267b2;

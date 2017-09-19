@@ -45,6 +45,7 @@ $mainColor: #169B79
   .columns
     margin-bottom: 0 !important
     margin-top: 0 !important
+    margin: 0 !important
 
   .blocks
     text-align: center
@@ -55,7 +56,7 @@ $mainColor: #169B79
       // min-height: 40vh
       margin-bottom: 0
       margin-top: 0px
-      padding: 20% 5%
+      padding: 5% 5%
       color: #666666
       position: relative
       background: #fff
@@ -99,6 +100,7 @@ $mainColor: #169B79
       padding: 0 0 2%
 
 #featured-online-course
+  @extend #its-us-you-need
   background: #FAFAFA
   // min-height: 100vh
   padding: 5% 0
@@ -122,9 +124,10 @@ $mainColor: #169B79
     padding: 0 !important
     min-height: 20vh
     background: #fff
-    margin: 0 25px 0 25px
+    margin: 0 25px 25px 25px
     border: 1px solid #e2e2e2
     outline: none
+    width: 25%
     img
       width: 100%
       min-width: 100%
@@ -177,6 +180,8 @@ $mainColor: #169B79
   overflow: hidden
   transition: all 0.5s ease
   background-attachment: fixed
+  padding: 7% 0
+  height: 35vh
   .enquire-content
     display: flex
     text-align: right
@@ -185,11 +190,12 @@ $mainColor: #169B79
     align-items: center
     .headtext
       margin: 0 2%
+      align-items: center
     h3
       font-size: 2rem
       color: $mainColor
     .button
-      width: 10%
+      width: auto
     .close-enquirebtn
       display: none
 

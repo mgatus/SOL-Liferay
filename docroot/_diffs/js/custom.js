@@ -1,7 +1,7 @@
 // ******* Mobile menu Toggle ************//
 $('.so-menu-toggle, .overlay-nav').click(function() {
-  let navbar = $('#navbarNav');
-  let overlay = $('.overlay-nav');
+  var navbar = $('#navbarNav');
+  var overlay = $('.overlay-nav');
   overlay.toggleClass('block-overlay');
   navbar.toggleClass( "show" );
   $(this).toggleClass('toggle-active')
@@ -10,15 +10,19 @@ $('.so-menu-toggle, .overlay-nav').click(function() {
 // ******* Enquire Toggle ************//
 var enquireBtns = $('.enquirebtn,.close-enquirebtn');
 enquireBtns.on('click',function(e){
-  let enquireDiv = $('#enquire-div');
-  let enquireExpand = 'enquire-expand';
-  let enquireBtn = $('.enquirebtn');
-  let enquireBtnClose = $('.close-enquirebtn');
-  let enquireForm = $('.form-enquire');
+  e.preventDefault();
+  var enquireDiv = $('#enquire-div');
+  var enquireExpand = 'enquire-expand';
+  var enquireBtn = $('.enquirebtn');
+  var enquireBtnClose = $('.close-enquirebtn');
+  var enquireForm = $('.form-enquire');
+
   enquireDiv.toggleClass(enquireExpand);
+
   enquireForm.toggleClass('show');
   if(enquireDiv.hasClass(enquireExpand)) {
       enquireBtn.html('Close');
+
   } else {
       enquireBtn.html('Enquire');
   }
@@ -27,43 +31,38 @@ enquireBtns.on('click',function(e){
 
 // **** Slick Carousel
 $(function() {
-  $('.responsive-carousel').slick({
-    centerMode: false,
+  var maxWidth = 641,
+  slickVar = {
+    dots: true,
     infinite: false,
-    speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
+    mobileFirst: false,
     responsive: [
       {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
+        breakpoint: maxWidth,
+        settings: 'unslick'
       }
     ]
-  });
+  },
+  runSlick = function() {
+    $('.responsive-carousel').slick(slickVar);
+  };
 
+  // slick initialization while document ready
+  runSlick();
+
+  if (!/Mobi/.test(navigator.userAgent)) {
+    // listen to jQuery's window resize
+    $(window).resize(function(){
+        // reinit slick while window's width is less than maximum width (641px)
+        runSlick();
+    });
+  }
 });
 
 // **** overrides
-// $('.site-add-controls a').on('click', function(){
-//   setTimeout(function(){ $('.lfr-has-add-content .lfr-add-panel.lfr-admin-panel .nav-list').hide().removeClass('nav').show(100); }, 500);
+$('.site-add-controls a').on('click', function(){
+  setTimeout(function(){ $('.lfr-has-add-content .lfr-add-panel.lfr-admin-panel .nav-list').hide().removeClass('nav').show(100); }, 500);
 
-// });
+});

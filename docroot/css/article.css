@@ -5,28 +5,28 @@
   color: #666666;
 }
 
-#its-us-you-need, #what-we-offer, #how-we-work, #what-new-and-upcoming, #our-partners, #our-aim, #delivery-models {
+#its-us-you-need, #what-we-offer, #how-we-work, #featured-online-course, #what-new-and-upcoming, #our-partners, #our-aim, #delivery-models {
   padding: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 5% 0;
 }
-#its-us-you-need .container, #what-we-offer .container, #how-we-work .container, #what-new-and-upcoming .container, #our-partners .container, #our-aim .container, #delivery-models .container {
+#its-us-you-need .container, #what-we-offer .container, #how-we-work .container, #featured-online-course .container, #what-new-and-upcoming .container, #our-partners .container, #our-aim .container, #delivery-models .container {
   width: 1152px;
   max-width: 1152px;
 }
-#its-us-you-need .container .columns, #what-we-offer .container .columns, #how-we-work .container .columns, #what-new-and-upcoming .container .columns, #our-partners .container .columns, #our-aim .container .columns, #delivery-models .container .columns {
+#its-us-you-need .container .columns, #what-we-offer .container .columns, #how-we-work .container .columns, #featured-online-course .container .columns, #what-new-and-upcoming .container .columns, #our-partners .container .columns, #our-aim .container .columns, #delivery-models .container .columns {
   margin-top: 1%;
   width: 100%;
   float: none !important;
 }
-#its-us-you-need h2, #what-we-offer h2, #how-we-work h2, #what-new-and-upcoming h2, #our-partners h2, #our-aim h2, #delivery-models h2 {
+#its-us-you-need h2, #what-we-offer h2, #how-we-work h2, #featured-online-course h2, #what-new-and-upcoming h2, #our-partners h2, #our-aim h2, #delivery-models h2 {
   color: #666666;
   font-family: "Montserrat", sans-serif;
   font-size: 2rem !important;
 }
-#its-us-you-need hr, #what-we-offer hr, #how-we-work hr, #what-new-and-upcoming hr, #our-partners hr, #our-aim hr, #delivery-models hr {
+#its-us-you-need hr, #what-we-offer hr, #how-we-work hr, #featured-online-course hr, #what-new-and-upcoming hr, #our-partners hr, #our-aim hr, #delivery-models hr {
   width: 72px;
   height: 2px;
   background-color: #169B79;
@@ -43,6 +43,7 @@
 #what-we-offer .columns {
   margin-bottom: 0 !important;
   margin-top: 0 !important;
+  margin: 0 !important;
 }
 #what-we-offer .blocks {
   text-align: center;
@@ -51,7 +52,7 @@
   border: 1px solid rgba(204, 204, 204, 0.8);
   margin-bottom: 0;
   margin-top: 0px;
-  padding: 20% 5%;
+  padding: 5% 5%;
   color: #666666;
   position: relative;
   background: #fff;
@@ -132,9 +133,10 @@
   padding: 0 !important;
   min-height: 20vh;
   background: #fff;
-  margin: 0 25px 0 25px;
+  margin: 0 25px 25px 25px;
   border: 1px solid #e2e2e2;
   outline: none;
+  width: 25%;
 }
 #featured-online-course .item img {
   width: 100%;
@@ -207,6 +209,8 @@
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   background-attachment: fixed;
+  padding: 7% 0;
+  height: 35vh;
 }
 #enquire-div .enquire-content {
   display: -webkit-box;
@@ -226,13 +230,16 @@
 }
 #enquire-div .enquire-content .headtext {
   margin: 0 2%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 #enquire-div .enquire-content h3 {
   font-size: 2rem;
   color: #169B79;
 }
 #enquire-div .enquire-content .button {
-  width: 10%;
+  width: auto;
 }
 #enquire-div .enquire-content .close-enquirebtn {
   display: none;

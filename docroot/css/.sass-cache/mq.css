@@ -9,7 +9,8 @@
     display: block; }
 
   .so-logo {
-    background-position: 15% 0; }
+    background-position: 15% 0;
+    margin-left: 15%; }
 
   .block-overlay {
     display: block; }
@@ -63,7 +64,7 @@
     z-index: 2500; }
 
   .upper-content .banner-upper-content .tagline {
-    margin-top: 28vw; }
+    margin-top: 30vh; }
 
   .lower-content .container {
     padding: 0 30px; }
@@ -75,7 +76,7 @@
     margin: 5% 0; }
 
   #enquire-div {
-    height: 22vh;
+    height: 34vh;
     padding: 15% 0; }
 
   #enquire-div .enquire-content {
@@ -87,11 +88,30 @@
   #enquire-div .enquire-content .button {
     width: auto !important; }
 
+  #how-we-work article {
+    width: 100% !important; }
+
+  #how-we-work .is-2 {
+    position: absolute;
+    right: 38%; }
+
+  #how-we-work .is-10 {
+    width: 100%; }
+
   footer .footer-links {
-    width: 90%; }
+    width: 90%;
+    display: block;
+    text-align: center; }
 
   .social-icons {
-    width: 10% !important; } }
+    width: 10% !important; }
+
+  #featured-online-course .item {
+    width: 100%;
+    margin-left: 0; }
+
+  .enquire-expand {
+    height: 130vh !important; } }
 @media (max-width: 47.9em) {
   header .container {
     width: 100%; }
@@ -103,7 +123,8 @@
     display: block; }
 
   .so-logo {
-    background-position: 15% 0; }
+    background-position: 15% 0;
+    margin-left: 15%; }
 
   .tagline {
     margin: 0 5%; }
@@ -157,7 +178,7 @@
     z-index: 2500; }
 
   .upper-content .banner-upper-content .tagline {
-    margin-top: 28vw; }
+    margin-top: 30vh; }
 
   .lower-content .container {
     padding: 0 30px; }
@@ -169,7 +190,7 @@
     margin: 5% 0; }
 
   #enquire-div {
-    height: 22vh;
+    height: 34vh;
     padding: 15% 0; }
 
   #enquire-div .enquire-content {
@@ -181,43 +202,44 @@
   #enquire-div .enquire-content .button {
     width: auto !important; }
 
+  #how-we-work article {
+    width: 100% !important; }
+
+  #how-we-work .is-2 {
+    position: absolute;
+    right: 38%; }
+
+  #how-we-work .is-10 {
+    width: 100%; }
+
   footer .footer-links {
-    width: 90%; }
+    width: 90%;
+    display: block;
+    text-align: center; }
 
   .social-icons {
-    width: 10% !important; } }
+    width: 10% !important; }
+
+  #featured-online-course .item {
+    width: 100%;
+    margin-left: 0; }
+
+  .enquire-expand {
+    height: 130vh !important; } }
 @media (max-width: 61.9em) {
   .slick-prev {
     left: -50px; }
 
   header .container {
     width: 100%;
-    max-width: 100%; }
-
-  .lower-content > * {
-    padding: 0 5%; }
-
-  #enquire-div {
-    height: 22vh;
-    padding: 9% 0; } }
+    max-width: 100%; } }
 @media (max-width: 74.9em) {
   .slick-prev {
     left: -50px; }
 
   header .container {
     width: 100%;
-    max-width: 100%; }
-
-  .lower-content > * {
-    padding: 0 5%; }
-
-  #enquire-div {
-    height: 22vh;
-    padding: 9% 0; } }
-@media (min-width: 75em) {
-  #enquire-div {
-    height: 35vh;
-    padding: 7% 0; } }
+    max-width: 100%; } }
 @media screen and (min-width: 1452px) {
   header .container {
     max-width: 1152px;

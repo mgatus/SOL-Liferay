@@ -7,7 +7,8 @@
 <head>
 	<title>$the_title - $company_name</title>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
 
 	$theme.include($top_head_include)
 
@@ -22,17 +23,18 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 	<!-- Custom CSS -->
-  	<link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/so.css">
+	<link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/so.css">
 
-  	<!-- Plugins CSS  -->
-  	<link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/slick.css">
-  	<link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/slick-theme.css">
+	<!-- Plugins CSS  -->
+	<link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/slick.css">
+	<link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/slick-theme.css">
 
-  	<!-- Additional Custom CSS  -->
-  	<link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/article.css">
 
-  	<!-- Media Query CSS -->
-  	<link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/mq.css">
+	<!-- Additional Custom CSS  -->
+	<link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/article.css">
+
+	<!-- Media Query CSS -->
+	<link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/mq.css">
 
   	<!-- jQuery scripts -->
 	<script src="$themeDisplay.getPathThemeRoot()/js/jquery-3.2.1.min.js"></script>
@@ -40,6 +42,7 @@
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
 
 </head>
 
@@ -52,21 +55,9 @@ $theme.include($body_top_include)
 
 #if ($is_signed_in)
 	#dockbar()
-#end   
+#end
 
 #parse ("$full_templates_path/header.vm")
-
-<!-- <div class="banner-upper-content">
-    <div class="upper-contents container">
-      <div class="breadcrumbs">
-        #breadcrumbs()    
-      </div>
-      <div class="tagline">
-        <h1>Learn Better, Achieve More</h1>
-        <small>We Provide custom learning solutions</small>
-      </div>
-    </div>
- </div> -->
 
 <div class="main-selectable">
 	#if ($selectable)
@@ -82,14 +73,16 @@ $theme.include($body_top_include)
 
 #parse ("$full_templates_path/footer.vm")
 
+$theme.include($body_bottom_include)
+
+$theme.include($bottom_include)
+
 <!-- jQuery scripts -->
 <script src="$themeDisplay.getPathThemeRoot()/js/slick.min.js"></script>
 <!-- Custom css -->
 <script src="$themeDisplay.getPathThemeRoot()/js/custom.js"></script>
 
-$theme.include($body_bottom_include)
 
-$theme.include($bottom_include)
 
 </body>
 
