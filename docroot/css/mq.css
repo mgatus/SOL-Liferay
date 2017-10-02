@@ -1,29 +1,43 @@
-@media (max-width: 33.9em) {
+@media (max-width: 400px) {
+  /* line 8, ../sass/mq.sass */
   header .container {
     width: 100%;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
   }
 
+  /* line 13, ../sass/mq.sass */
+  header.fixed-top {
+    position: static;
+  }
+
+  /* line 16, ../sass/mq.sass */
   .half-banner {
     min-height: 70vh;
   }
 
+  /* line 19, ../sass/mq.sass */
   .so-menu-toggle {
     display: block;
   }
 
+  /* line 22, ../sass/mq.sass */
   .so-logo {
     background-position: 15% 0;
     margin-left: 15%;
   }
 
+  /* line 26, ../sass/mq.sass */
   .block-overlay {
     display: block;
   }
 
+  /* line 29, ../sass/mq.sass */
   .tagline {
     margin: 0 5%;
   }
 
+  /* line 32, ../sass/mq.sass */
   #navbarNav {
     position: fixed;
     top: 0;
@@ -40,10 +54,12 @@
     -webkit-transform: translateX(-999px);
             transform: translateX(-999px);
   }
+  /* line 44, ../sass/mq.sass */
   #navbarNav .navbar-nav {
     display: block;
     float: none;
   }
+  /* line 47, ../sass/mq.sass */
   #navbarNav .special-corner {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -54,15 +70,19 @@
             flex-direction: column-reverse;
     margin: 15px 0;
   }
+  /* line 51, ../sass/mq.sass */
   #navbarNav .special-corner > * {
     margin: 8px 0;
   }
+  /* line 53, ../sass/mq.sass */
   #navbarNav .special-corner .input-group.search {
     width: 100%;
   }
+  /* line 55, ../sass/mq.sass */
   #navbarNav .special-corner input[type="text"] {
     width: 100%;
   }
+  /* line 57, ../sass/mq.sass */
   #navbarNav.show {
     -webkit-transform: translateX(0);
             transform: translateX(0);
@@ -70,97 +90,131 @@
     z-index: 2500;
   }
 
+  /* line 64, ../sass/mq.sass */
   .upper-content .banner-upper-content .tagline {
     margin-top: 30vh;
   }
 
+  /* line 68, ../sass/mq.sass */
   .lower-content .container {
     padding: 0 30px;
   }
 
+  /* line 72, ../sass/mq.sass */
   .half-banner .tagline {
     margin-top: 35vw !important;
   }
 
+  /* line 75, ../sass/mq.sass */
   #what-we-offer .blocks {
     margin: 5% 0;
   }
 
+  /* line 78, ../sass/mq.sass */
   #enquire-div {
     height: 34vh;
     padding: 15% 0;
   }
 
+  /* line 82, ../sass/mq.sass */
   #enquire-div .enquire-content {
     display: block;
   }
 
+  /* line 85, ../sass/mq.sass */
   #enquire-div .form-enquire {
     width: 90% !important;
   }
 
+  /* line 88, ../sass/mq.sass */
   #enquire-div .enquire-content .button {
     width: auto !important;
   }
 
+  /* line 92, ../sass/mq.sass */
   #how-we-work article {
     width: 100% !important;
   }
 
+  /* line 95, ../sass/mq.sass */
   #how-we-work .is-2 {
     position: absolute;
-    right: 38%;
+    left: 2%;
   }
 
+  /* line 99, ../sass/mq.sass */
   #how-we-work .is-10 {
     width: 100%;
   }
 
+  /* line 102, ../sass/mq.sass */
+  #how-we-work article h3 {
+    padding: 0 0 2% 15%;
+  }
+
+  /* line 105, ../sass/mq.sass */
   footer .footer-links {
     width: 90%;
     display: block;
     text-align: center;
   }
 
+  /* line 110, ../sass/mq.sass */
   .social-icons {
     width: 10% !important;
   }
 
+  /* line 113, ../sass/mq.sass */
   #featured-online-course .item {
     width: 100%;
     margin-left: 0;
   }
 
+  /* line 117, ../sass/mq.sass */
   .enquire-expand {
     height: 130vh !important;
   }
 }
-@media (max-width: 47.9em) {
+@media (max-width: 1024px) {
+  /* line 124, ../sass/mq.sass */
   header .container {
     width: 100%;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
   }
 
+  /* line 129, ../sass/mq.sass */
+  header.fixed-top {
+    position: static;
+  }
+
+  /* line 132, ../sass/mq.sass */
   .half-banner {
     min-height: 70vh;
   }
 
+  /* line 135, ../sass/mq.sass */
   .so-menu-toggle {
     display: block;
   }
 
+  /* line 138, ../sass/mq.sass */
   .so-logo {
     background-position: 15% 0;
     margin-left: 15%;
   }
 
+  /* line 142, ../sass/mq.sass */
   .tagline {
     margin: 0 5%;
   }
 
+  /* line 145, ../sass/mq.sass */
   .block-overlay {
     display: block;
   }
 
+  /* line 148, ../sass/mq.sass */
   #navbarNav {
     position: fixed;
     top: 0;
@@ -177,10 +231,12 @@
     -webkit-transform: translateX(-999px);
             transform: translateX(-999px);
   }
+  /* line 160, ../sass/mq.sass */
   #navbarNav .navbar-nav {
     display: block;
     float: none;
   }
+  /* line 163, ../sass/mq.sass */
   #navbarNav .special-corner {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -191,15 +247,19 @@
             flex-direction: column-reverse;
     margin: 15px 0;
   }
+  /* line 167, ../sass/mq.sass */
   #navbarNav .special-corner > * {
     margin: 8px 0;
   }
+  /* line 169, ../sass/mq.sass */
   #navbarNav .special-corner .input-group.search {
     width: 100%;
   }
+  /* line 171, ../sass/mq.sass */
   #navbarNav .special-corner input[type="text"] {
     width: 100%;
   }
+  /* line 173, ../sass/mq.sass */
   #navbarNav.show {
     -webkit-transform: translateX(0);
             transform: translateX(0);
@@ -207,100 +267,114 @@
     z-index: 2500;
   }
 
+  /* line 181, ../sass/mq.sass */
   .upper-content .banner-upper-content .tagline {
     margin-top: 30vh;
   }
 
+  /* line 185, ../sass/mq.sass */
   .lower-content .container {
     padding: 0 30px;
   }
 
+  /* line 189, ../sass/mq.sass */
   .half-banner .tagline {
     margin-top: 35vw !important;
   }
 
+  /* line 193, ../sass/mq.sass */
   #what-we-offer .blocks {
     margin: 5% 0;
   }
 
+  /* line 196, ../sass/mq.sass */
   #enquire-div {
     height: 34vh;
     padding: 15% 0;
   }
 
+  /* line 200, ../sass/mq.sass */
   #enquire-div .enquire-content {
     display: block;
   }
 
+  /* line 203, ../sass/mq.sass */
   #enquire-div .form-enquire {
     width: 90% !important;
   }
 
+  /* line 206, ../sass/mq.sass */
   #enquire-div .enquire-content .button {
     width: auto !important;
   }
 
+  /* line 210, ../sass/mq.sass */
   #how-we-work article {
     width: 100% !important;
+    margin-top: 30px;
   }
 
+  /* line 214, ../sass/mq.sass */
   #how-we-work .is-2 {
     position: absolute;
-    right: 38%;
+    left: 2%;
   }
 
+  /* line 219, ../sass/mq.sass */
   #how-we-work .is-10 {
     width: 100%;
   }
 
+  /* line 222, ../sass/mq.sass */
+  #how-we-work article h3 {
+    padding: 0 0 2% 15%;
+  }
+
+  /* line 225, ../sass/mq.sass */
   footer .footer-links {
     width: 90%;
     display: block;
     text-align: center;
   }
 
+  /* line 230, ../sass/mq.sass */
   .social-icons {
     width: 10% !important;
   }
 
+  /* line 233, ../sass/mq.sass */
   #featured-online-course .item {
     width: 100%;
     margin-left: 0;
   }
 
+  /* line 237, ../sass/mq.sass */
   .enquire-expand {
     height: 130vh !important;
   }
 }
 @media (max-width: 61.9em) {
+  /* line 242, ../sass/mq.sass */
   .slick-prev {
     left: -50px;
   }
 
+  /* line 245, ../sass/mq.sass */
   header .container {
     width: 100%;
     max-width: 100%;
   }
 }
 @media (max-width: 74.9em) {
+  /* line 255, ../sass/mq.sass */
   .slick-prev {
     left: -50px;
   }
 
+  /* line 258, ../sass/mq.sass */
   header .container {
     width: 100%;
     max-width: 100%;
-  }
-}
-@media screen and (min-width: 1452px) {
-  header .container {
-    max-width: 1152px;
-    width: 1152px;
-  }
-
-  .lower-content .container {
-    max-width: 1152px;
-    width: 1152px;
   }
 }
 

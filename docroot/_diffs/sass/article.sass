@@ -9,6 +9,10 @@ $mainColor: #169B79
   font-size: 1.5rem
   color: #666666
 
+strong.main-text-color
+  clear: both
+  display: block
+
 #its-us-you-need
   padding: 15px
   // min-height: 75vh
@@ -16,13 +20,14 @@ $mainColor: #169B79
   // justify-content: center
   // align-items: center
   padding: 5% 0
+  line-height: 1.5
   .container
     width: 1152px
     max-width: 1152px
-    .columns
-      margin-top: 1%
-      width: 100%
-      float: none !important
+    // .columns
+    //   margin-top: 1%
+    //   width: 100%
+    //   float: none !important
   h2
     color: #666666
     font-family: 'Montserrat', sans-serif
@@ -35,7 +40,6 @@ $mainColor: #169B79
     display: block
     float: left
     border: 2px solid $mainColor
-
 
 #what-we-offer
   @extend #its-us-you-need
@@ -60,6 +64,7 @@ $mainColor: #169B79
       color: #666666
       position: relative
       background: #fff
+      min-height: 250px
 
       h5
         font-weight: 700
@@ -91,13 +96,16 @@ $mainColor: #169B79
 
 #how-we-work
   @extend #its-us-you-need
-  min-height: 100vh
+  min-height: 75vh
   padding: 5% 0
   article
-    padding: 3% 0
+    padding: 1% 2%
     h3
-      font-size: 1.5rem
+      font-size: 2.1rem
       padding: 0 0 2%
+      color: $mainColor
+    .is-10
+      text-align: center
 
 #featured-online-course
   @extend #its-us-you-need
@@ -147,6 +155,8 @@ $mainColor: #169B79
           border-right: 1px solid #e2e2e2
           padding-right: 8px
           margin-right: 8px
+      .description
+        height: 100px
       .button
         margin: 5% auto
 
@@ -172,8 +182,8 @@ $mainColor: #169B79
       font-family: 'Montserrat', sans-serif
 
 #enquire-div
-  background-image: url('./../img/enquirebg.png')
-  background-position: top center
+  background-image: url('./../img/bg2.jpg')
+  background-position: 0px 160px
   background-repeat: no-repeat
   background-size: cover
   text-align: center
@@ -238,10 +248,12 @@ $mainColor: #169B79
       box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1)
       max-width: 100%
       width: 100%
+      font-family: "Open Sans", sans-serif
     textarea
       border-radius: 10px
     label
       display: inline-block
+      margin: 4px 0
 
 .enquire-expand
   height: 100vh !important
@@ -257,7 +269,7 @@ $mainColor: #169B79
     float: left
     clear: both
     width: 100%
-    margin: 3% 0
+    margin: 0 0 3%
 
 #what-new-and-upcoming
   @extend #its-us-you-need
@@ -267,8 +279,9 @@ $mainColor: #169B79
     padding: 0 0 5%
     img
       width: 100%
+      max-width: 100%
   .content
-    padding: 0 10%
+    padding: 5% 10%
     h5
       color: $mainColor
       font-weight: 700
@@ -281,7 +294,7 @@ $mainColor: #169B79
     small,p
       color: #666666
     p
-      font-size: 0.8rem
+      font-size: 1rem
     a
       margin-bottom: 5%
       color: $mainColor
@@ -333,3 +346,69 @@ $mainColor: #169B79
     list-style: disc
     li
       margin: 2% 0
+
+#our-aim-v2
+  @extend #its-us-you-need
+  padding: 1% 0
+  .item
+    margin: 0 0 2.5%
+    img
+      width: 90%
+      max-width: 80%
+  h4
+    font-size: 2rem
+    color: $mainColor
+  ul
+    list-style: disc
+    padding-left: 2% !important
+    li
+      margin: 1% 2px
+
+// +++++++++++++++++++++++ EXPERTISE ++++++++++++++++++++++++++++//
+#course-development
+  @extend #its-us-you-need
+  h4
+    color: $mainColor
+    margin-bottom: 15px
+    padding-right: 3%
+    padding-left: 7px
+    font-size: 1.5REM
+    font-weight: 700
+  .content
+    float: left
+    width: 50%
+  .aim-carousel
+    margin: 0 auto
+// Slick overrides
+
+#services
+  @extend #its-us-you-need
+  .columns
+    margin-top: 0 !important
+    line-height: 1.8 !important
+    .button
+      margin-top: 2%
+    h2
+      color: $mainColor !important
+
+// +++++++++++++++++++++++ CONTACT US ++++++++++++++++++++++++++++//
+#contact-us
+  @extend #its-us-you-need
+  padding: 0 0 5%
+  .columns
+    margin: 0 auto !important
+    .imgdiv
+      margin: 0 0 2%
+      display: block
+      clear: both
+    h4
+      color: $mainColor
+      clear: both
+      font-size: 1.5rem
+      margin: 0
+    hr
+      clear: both
+      display: block
+    address
+      display: block
+      clear: both

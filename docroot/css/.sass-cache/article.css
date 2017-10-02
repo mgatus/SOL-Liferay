@@ -1,31 +1,37 @@
+/* line 6, ../sass/article.sass */
 .mini-info {
   clear: both;
   margin: 2% 0 0;
   font-size: 1.5rem;
   color: #666666; }
 
-#its-us-you-need, #what-we-offer, #how-we-work, #featured-online-course, #what-new-and-upcoming, #our-partners, #our-aim, #delivery-models {
+/* line 12, ../sass/article.sass */
+strong.main-text-color {
+  clear: both;
+  display: block; }
+
+/* line 16, ../sass/article.sass */
+#its-us-you-need, #what-we-offer, #how-we-work, #featured-online-course, #what-new-and-upcoming, #our-partners, #our-aim, #delivery-models, #our-aim-v2, #course-development, #services, #contact-us {
   padding: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 5% 0; }
+  padding: 5% 0;
+  line-height: 1.5; }
 
-#its-us-you-need .container, #what-we-offer .container, #how-we-work .container, #featured-online-course .container, #what-new-and-upcoming .container, #our-partners .container, #our-aim .container, #delivery-models .container {
+/* line 24, ../sass/article.sass */
+#its-us-you-need .container, #what-we-offer .container, #how-we-work .container, #featured-online-course .container, #what-new-and-upcoming .container, #our-partners .container, #our-aim .container, #delivery-models .container, #our-aim-v2 .container, #course-development .container, #services .container, #contact-us .container {
   width: 1152px;
   max-width: 1152px; }
 
-#its-us-you-need .container .columns, #what-we-offer .container .columns, #how-we-work .container .columns, #featured-online-course .container .columns, #what-new-and-upcoming .container .columns, #our-partners .container .columns, #our-aim .container .columns, #delivery-models .container .columns {
-  margin-top: 1%;
-  width: 100%;
-  float: none !important; }
-
-#its-us-you-need h2, #what-we-offer h2, #how-we-work h2, #featured-online-course h2, #what-new-and-upcoming h2, #our-partners h2, #our-aim h2, #delivery-models h2 {
+/* line 31, ../sass/article.sass */
+#its-us-you-need h2, #what-we-offer h2, #how-we-work h2, #featured-online-course h2, #what-new-and-upcoming h2, #our-partners h2, #our-aim h2, #delivery-models h2, #our-aim-v2 h2, #course-development h2, #services h2, #contact-us h2 {
   color: #666666;
   font-family: "Montserrat", sans-serif;
   font-size: 2rem !important; }
 
-#its-us-you-need hr, #what-we-offer hr, #how-we-work hr, #featured-online-course hr, #what-new-and-upcoming hr, #our-partners hr, #our-aim hr, #delivery-models hr {
+/* line 35, ../sass/article.sass */
+#its-us-you-need hr, #what-we-offer hr, #how-we-work hr, #featured-online-course hr, #what-new-and-upcoming hr, #our-partners hr, #our-aim hr, #delivery-models hr, #our-aim-v2 hr, #course-development hr, #services hr, #contact-us hr {
   width: 72px;
   height: 2px;
   background-color: #169B79;
@@ -34,18 +40,22 @@
   float: left;
   border: 2px solid #169B79; }
 
+/* line 44, ../sass/article.sass */
 #what-we-offer {
   background: #FAFAFA;
   padding: 5% 0; }
 
+/* line 49, ../sass/article.sass */
 #what-we-offer .columns {
   margin-bottom: 0 !important;
   margin-top: 0 !important;
   margin: 0 !important; }
 
+/* line 54, ../sass/article.sass */
 #what-we-offer .blocks {
   text-align: center; }
 
+/* line 57, ../sass/article.sass */
 #what-we-offer .blocks .contents {
   border: 1px solid rgba(204, 204, 204, 0.8);
   margin-bottom: 0;
@@ -53,24 +63,29 @@
   padding: 5% 5%;
   color: #666666;
   position: relative;
-  background: #fff; }
+  background: #fff;
+  min-height: 250px; }
 
+/* line 69, ../sass/article.sass */
 #what-we-offer .blocks .contents h5 {
   font-weight: 700;
   color: #169B79;
   font-size: 1.3rem;
   padding: 8px 0; }
 
+/* line 74, ../sass/article.sass */
 #what-we-offer .blocks .contents p {
   -webkit-transition: all 0s ease !important;
   transition: all 0s ease !important;
   line-height: 1.8rem; }
 
+/* line 77, ../sass/article.sass */
 #what-we-offer .blocks .contents i.fa {
   font-size: 2rem;
   color: #666666;
   margin-bottom: 15px; }
 
+/* line 81, ../sass/article.sass */
 #what-we-offer .blocks .contents .button {
   margin: 8px auto;
   color: #fff;
@@ -80,43 +95,59 @@
   left: 0;
   right: 0; }
 
+/* line 88, ../sass/article.sass */
 #what-we-offer .blocks .contents:hover {
   background: #169B79 !important;
   color: #fff !important; }
 
+/* line 91, ../sass/article.sass */
 #what-we-offer .blocks .contents:hover i.fa, #what-we-offer .blocks .contents:hover h5 {
   color: #fff; }
 
+/* line 93, ../sass/article.sass */
 #what-we-offer .blocks .contents:hover .button {
   background: #fff !important;
   color: #169B79 !important; }
 
+/* line 97, ../sass/article.sass */
 #how-we-work {
-  min-height: 100vh;
+  min-height: 75vh;
   padding: 5% 0; }
 
+/* line 101, ../sass/article.sass */
 #how-we-work article {
-  padding: 3% 0; }
+  padding: 1% 2%; }
 
+/* line 103, ../sass/article.sass */
 #how-we-work article h3 {
-  font-size: 1.5rem;
-  padding: 0 0 2%; }
+  font-size: 2.1rem;
+  padding: 0 0 2%;
+  color: #169B79; }
 
+/* line 107, ../sass/article.sass */
+#how-we-work article .is-10 {
+  text-align: center; }
+
+/* line 110, ../sass/article.sass */
 #featured-online-course {
   background: #FAFAFA;
   padding: 5% 0; }
 
+/* line 115, ../sass/article.sass */
 #featured-online-course .container {
   max-width: 1152px; }
 
+/* line 118, ../sass/article.sass */
 #featured-online-course .mini-info {
   margin: 2% 0; }
 
+/* line 120, ../sass/article.sass */
 #featured-online-course h2 {
   color: #666666;
   font-family: "Montserrat", sans-serif;
   font-size: 2rem !important; }
 
+/* line 124, ../sass/article.sass */
 #featured-online-course hr {
   width: 72px;
   height: 2px;
@@ -125,6 +156,7 @@
   display: block;
   float: left; }
 
+/* line 131, ../sass/article.sass */
 #featured-online-course .item {
   padding: 0 !important;
   min-height: 20vh;
@@ -134,34 +166,46 @@
   outline: none;
   width: 25%; }
 
+/* line 139, ../sass/article.sass */
 #featured-online-course .item img {
   width: 100%;
   min-width: 100%; }
 
+/* line 142, ../sass/article.sass */
 #featured-online-course .item .information {
   padding: 15px;
   text-align: center; }
 
+/* line 145, ../sass/article.sass */
 #featured-online-course .item .information h4 {
   border-bottom: 1px solid #e2e2e2;
   padding: 8px;
   margin-bottom: 15px;
   text-align: left; }
 
+/* line 150, ../sass/article.sass */
 #featured-online-course .item .information .price, #featured-online-course .item .information .description {
   text-align: left; }
 
+/* line 152, ../sass/article.sass */
 #featured-online-course .item .information .price {
   margin-bottom: 15px; }
 
+/* line 154, ../sass/article.sass */
 #featured-online-course .item .information .price strong {
   border-right: 1px solid #e2e2e2;
   padding-right: 8px;
   margin-right: 8px; }
 
+/* line 158, ../sass/article.sass */
+#featured-online-course .item .information .description {
+  height: 100px; }
+
+/* line 160, ../sass/article.sass */
 #featured-online-course .item .information .button {
   margin: 5% auto; }
 
+/* line 163, ../sass/article.sass */
 #solutions, #products-services {
   background-image: url("./../img/Solutions.png");
   background-position: center;
@@ -172,6 +216,7 @@
   text-align: center;
   padding: 7%; }
 
+/* line 173, ../sass/article.sass */
 #solutions .solution-content, #products-services .solution-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -188,14 +233,16 @@
   flex-direction: column;
   margin-bottom: 2%; }
 
+/* line 179, ../sass/article.sass */
 #solutions .solution-content h2, #products-services .solution-content h2 {
   font-size: 2rem;
   margin-bottom: 2%;
   font-family: "Montserrat", sans-serif; }
 
+/* line 184, ../sass/article.sass */
 #enquire-div {
-  background-image: url("./../img/enquirebg.png");
-  background-position: top center;
+  background-image: url("./../img/bg2.jpg");
+  background-position: 0px 160px;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -206,6 +253,7 @@
   padding: 7% 0;
   height: 35vh; }
 
+/* line 195, ../sass/article.sass */
 #enquire-div .enquire-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -222,34 +270,42 @@
   -ms-flex-align: center;
   align-items: center; }
 
+/* line 201, ../sass/article.sass */
 #enquire-div .enquire-content .headtext {
   margin: 0 2%;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
 
+/* line 204, ../sass/article.sass */
 #enquire-div .enquire-content h3 {
   font-size: 2rem;
   color: #169B79; }
 
+/* line 207, ../sass/article.sass */
 #enquire-div .enquire-content .button {
   width: auto; }
 
+/* line 209, ../sass/article.sass */
 #enquire-div .enquire-content .close-enquirebtn {
   display: none; }
 
+/* line 212, ../sass/article.sass */
 #enquire-div .form-enquire {
   padding: 1% 0;
   margin: 0 auto;
   width: 30% !important;
   opacity: 0; }
 
+/* line 217, ../sass/article.sass */
 #enquire-div .form-enquire .control {
   margin: 3% 0 !important; }
 
+/* line 219, ../sass/article.sass */
 #enquire-div .form-enquire.show {
   opacity: 1; }
 
+/* line 221, ../sass/article.sass */
 #enquire-div .form-enquire input.input {
   border-radius: 30px;
   -moz-appearance: none;
@@ -279,74 +335,95 @@
   -webkit-box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
   max-width: 100%;
-  width: 100%; }
+  width: 100%;
+  font-family: "Open Sans", sans-serif; }
 
+/* line 252, ../sass/article.sass */
 #enquire-div .form-enquire textarea {
   border-radius: 10px; }
 
+/* line 254, ../sass/article.sass */
 #enquire-div .form-enquire label {
-  display: inline-block; }
+  display: inline-block;
+  margin: 4px 0; }
 
+/* line 258, ../sass/article.sass */
 .enquire-expand {
   height: 100vh !important; }
 
+/* line 261, ../sass/article.sass */
 .course-update-radio {
   margin: 0 2%; }
 
+/* line 263, ../sass/article.sass */
 .course-update-radio .radio {
   width: 100%;
   margin: 0; }
 
+/* line 266, ../sass/article.sass */
 .course-update-radio strong {
   text-align: left;
   color: #666666;
   float: left;
   clear: both;
   width: 100%;
-  margin: 3% 0; }
+  margin: 0 0 3%; }
 
+/* line 274, ../sass/article.sass */
 #what-new-and-upcoming {
   background: #FAFAFA; }
 
+/* line 277, ../sass/article.sass */
 #what-new-and-upcoming .item-box {
   -webkit-box-shadow: 0px 0px 1px #929292;
   box-shadow: 0px 0px 1px #929292;
   padding: 0 0 5%; }
 
+/* line 280, ../sass/article.sass */
 #what-new-and-upcoming .item-box img {
-  width: 100%; }
+  width: 100%;
+  max-width: 100%; }
 
+/* line 283, ../sass/article.sass */
 #what-new-and-upcoming .content {
-  padding: 0 10%; }
+  padding: 5% 10%; }
 
+/* line 285, ../sass/article.sass */
 #what-new-and-upcoming .content h5 {
   color: #169B79;
   font-weight: 700;
   margin: 2% 0; }
 
+/* line 289, ../sass/article.sass */
 #what-new-and-upcoming .content small, #what-new-and-upcoming .content date {
   font-size: 0.9rem;
   width: 100%;
   display: block;
   margin: 2% 0; }
 
+/* line 294, ../sass/article.sass */
 #what-new-and-upcoming .content small, #what-new-and-upcoming .content p {
   color: #666666; }
 
+/* line 296, ../sass/article.sass */
 #what-new-and-upcoming .content p {
-  font-size: 0.8rem; }
+  font-size: 1rem; }
 
+/* line 298, ../sass/article.sass */
 #what-new-and-upcoming .content a {
   margin-bottom: 5%;
   color: #169B79; }
 
+/* line 304, ../sass/article.sass */
 #our-partners .client-listing {
   margin: 5% 0;
   text-align: center; }
 
+/* line 307, ../sass/article.sass */
 #our-partners .client-listing img {
   width: 70%; }
 
+/* line 313, ../sass/article.sass */
 #our-aim h4 {
   color: #169B79;
   margin-bottom: 15px;
@@ -355,36 +432,134 @@
   font-size: 1.5REM;
   font-weight: 700; }
 
+/* line 321, ../sass/article.sass */
 #our-aim .infograph img {
   padding-right: 50px; }
 
+/* line 323, ../sass/article.sass */
 #our-aim ul {
   list-style: disc !important;
   margin-left: 3%;
   width: 98%; }
 
+/* line 327, ../sass/article.sass */
 #our-aim ul li {
   margin: 2% 0; }
 
+/* line 332, ../sass/article.sass */
 #delivery-models .columns {
   text-align: center; }
 
+/* line 335, ../sass/article.sass */
 #delivery-models .columns .img-tags img {
   border-radius: 50%;
   margin-bottom: 5%; }
 
+/* line 338, ../sass/article.sass */
 #delivery-models .columns h5 {
   color: #169B79; }
 
+/* line 341, ../sass/article.sass */
 #products-services {
   background-image: url("./../img/products.png"); }
 
+/* line 344, ../sass/article.sass */
 #products-services ul {
   text-align: left;
   list-style: disc; }
 
+/* line 347, ../sass/article.sass */
 #products-services ul li {
   margin: 2% 0; }
+
+/* line 350, ../sass/article.sass */
+#our-aim-v2 {
+  padding: 1% 0; }
+
+/* line 353, ../sass/article.sass */
+#our-aim-v2 .item {
+  margin: 0 0 2.5%; }
+
+/* line 355, ../sass/article.sass */
+#our-aim-v2 .item img {
+  width: 90%;
+  max-width: 80%; }
+
+/* line 358, ../sass/article.sass */
+#our-aim-v2 h4 {
+  font-size: 2rem;
+  color: #169B79; }
+
+/* line 361, ../sass/article.sass */
+#our-aim-v2 ul {
+  list-style: disc;
+  padding-left: 2% !important; }
+
+/* line 364, ../sass/article.sass */
+#our-aim-v2 ul li {
+  margin: 1% 2px; }
+
+/* line 370, ../sass/article.sass */
+#course-development h4 {
+  color: #169B79;
+  margin-bottom: 15px;
+  padding-right: 3%;
+  padding-left: 7px;
+  font-size: 1.5REM;
+  font-weight: 700; }
+
+/* line 377, ../sass/article.sass */
+#course-development .content {
+  float: left;
+  width: 50%; }
+
+/* line 380, ../sass/article.sass */
+#course-development .aim-carousel {
+  margin: 0 auto; }
+
+/* line 386, ../sass/article.sass */
+#services .columns {
+  margin-top: 0 !important;
+  line-height: 1.8 !important; }
+
+/* line 389, ../sass/article.sass */
+#services .columns .button {
+  margin-top: 2%; }
+
+/* line 391, ../sass/article.sass */
+#services .columns h2 {
+  color: #169B79 !important; }
+
+/* line 395, ../sass/article.sass */
+#contact-us {
+  padding: 0 0 5%; }
+
+/* line 398, ../sass/article.sass */
+#contact-us .columns {
+  margin: 0 auto !important; }
+
+/* line 400, ../sass/article.sass */
+#contact-us .columns .imgdiv {
+  margin: 0 0 2%;
+  display: block;
+  clear: both; }
+
+/* line 404, ../sass/article.sass */
+#contact-us .columns h4 {
+  color: #169B79;
+  clear: both;
+  font-size: 1.5rem;
+  margin: 0; }
+
+/* line 409, ../sass/article.sass */
+#contact-us .columns hr {
+  clear: both;
+  display: block; }
+
+/* line 412, ../sass/article.sass */
+#contact-us .columns address {
+  display: block;
+  clear: both; }
 
 /*# sourceMappingURL=article.css.map */
 

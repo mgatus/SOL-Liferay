@@ -2,10 +2,16 @@
 
 $mainColor: #169B79
 
-@media (max-width: 33.9em)
+// @media (max-width: 33.9em)
+@media (max-width: 400px)
   // write CSS properties here
   header .container
     width: 100%
+    padding-top: 10px !important
+    padding-bottom: 10px !important
+
+  header.fixed-top
+    position: static
 
   .half-banner
     min-height: 70vh
@@ -88,10 +94,13 @@ $mainColor: #169B79
 
   #how-we-work .is-2
     position: absolute
-    right: 38%
+    left: 2%
 
   #how-we-work .is-10
     width: 100%
+
+  #how-we-work article h3
+    padding: 0 0 2% 15%
 
   footer .footer-links
     width: 90%
@@ -109,10 +118,16 @@ $mainColor: #169B79
     height: 130vh !important
 
 // Small devices (phones, tablets less than 48em)
-@media (max-width: 47.9em)
+// @media (max-width: 47.9em)
+@media (max-width: 1024px)
   // write CSS properties here
   header .container
     width: 100%
+    padding-top: 10px !important
+    padding-bottom: 10px !important
+
+  header.fixed-top
+    position: static
 
   .half-banner
     min-height: 70vh
@@ -194,13 +209,18 @@ $mainColor: #169B79
   #how-we-work
     article
       width: 100% !important
+      margin-top: 30px
 
   #how-we-work .is-2
     position: absolute
-    right: 38%
+    left: 2%
+
 
   #how-we-work .is-10
     width: 100%
+
+  #how-we-work article h3
+    padding: 0 0 2% 15%
 
   footer .footer-links
     width: 90%
@@ -247,13 +267,17 @@ $mainColor: #169B79
 @media (min-width: 75em)
 
 
-@media screen and (min-width: 1452px)
-  header
-    .container
-      max-width: 1152px
-      width: 1152px
-
-  .lower-content
-    .container
-      max-width: 1152px
-      width: 1152px
+// @media screen and (min-width: 1452px)
+//   header
+//     .container
+//       max-width: 1152px
+//       width: 1152px
+//
+//   .container
+//     max-width: 1152px !important
+//     width: 1152px !important
+//
+//   .lower-content
+//     .container
+//       max-width: 1152px
+//       width: 1152px

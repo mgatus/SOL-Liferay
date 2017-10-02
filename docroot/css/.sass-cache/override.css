@@ -1,83 +1,109 @@
+/* line 3, ../sass/override.sass */
 body {
   padding: 0 !important; }
 
+/* line 6, ../sass/override.sass */
 .aui body {
   font-family: "Open Sans", sans-serif; }
 
+/* line 12, ../sass/override.sass */
 .aui .modal {
   -webkit-transition: none;
   transition: none;
   z-index: 9999 !important; }
 
+/* line 16, ../sass/override.sass */
 .aui .dockbar .navbar-inner {
   width: 100%; }
 
+/* line 19, ../sass/override.sass */
 .aui .navbar .nav {
   z-index: 9997; }
 
+/* line 21, ../sass/override.sass */
 .aui .navbar .nav a {
   background: #fff !important;
   margin: 0 !important; }
 
+/* line 25, ../sass/override.sass */
 .nav-add-controls {
   z-index: 0 !important; }
 
+/* line 28, ../sass/override.sass */
 .direction-down {
   -webkit-transition: none;
   transition: none; }
 
+/* line 31, ../sass/override.sass */
 .aui .lfr-admin-panel {
   z-index: 9998; }
 
+/* line 34, ../sass/override.sass */
 .dockbar-messages {
   display: none; }
 
+/* line 37, ../sass/override.sass */
 .ltr .column, .rtl .column-last {
   float: none; }
 
+/* line 40, ../sass/override.sass */
 .aui .navbar-inner {
   background: #fff !important; }
 
+/* line 43, ../sass/override.sass */
 .aui .dockbar .navbar-inner .site-administration-menu li {
   text-align: left; }
 
+/* line 46, ../sass/override.sass */
 span.site-name {
   color: #666666; }
 
+/* line 50, ../sass/override.sass */
 .dockbar .dropdown-menu a:hover {
   color: #666666 !important; }
 
+/* line 53, ../sass/override.sass */
 .portlet-content, .portlet-minimized .portlet-content-container {
   padding: 0 !important; }
 
+/* line 56, ../sass/override.sass */
 h1.portlet-title {
   display: none; }
 
+/* line 59, ../sass/override.sass */
 .signed-in h1.portlet-title {
   display: block; }
 
+/* line 63, ../sass/override.sass */
 .add-content-menu .container {
   width: 100% !important; }
 
+/* line 66, ../sass/override.sass */
 .add-content-menu .input-container > * {
   width: 320px !important; }
 
+/* line 69, ../sass/override.sass */
 .aui .open > .dropdown-menu {
   display: block !important; }
 
+/* line 72, ../sass/override.sass */
 .toggler-content.toggler-content-expanded span.add-content-item {
   background: #fff;
   border-radius: 10px; }
 
+/* line 80, ../sass/override.sass */
 #manageRecentPanelContent .container {
   width: 100% !important; }
 
+/* line 82, ../sass/override.sass */
 #manageRecentPanelContent .nav {
   display: block !important; }
 
+/* line 86, ../sass/override.sass */
 .SOLHeader-portlet.portlet-draggable .portlet-topper {
   top: 181px; }
 
+/* line 89, ../sass/override.sass */
 .signed-in .portlet-topper {
   position: -webkit-sticky;
   position: sticky;
@@ -87,21 +113,26 @@ h1.portlet-title {
   z-index: 1;
   color: #fff; }
 
+/* line 98, ../sass/override.sass */
 .signed-out .portlet-topper {
   display: none; }
 
 @media (max-width: 33.9em) {
+  /* line 102, ../sass/override.sass */
   .aui .dockbar.navbar-static-top {
     position: inherit !important;
     z-index: 9999; }
 
+  /* line 106, ../sass/override.sass */
   body.controls-visible {
     margin-top: 0; } }
 @media (max-width: 47.9em) {
+  /* line 110, ../sass/override.sass */
   .aui .dockbar.navbar-static-top {
     position: inherit !important;
     z-index: 9999; }
 
+  /* line 114, ../sass/override.sass */
   body.controls-visible {
     margin-top: 0; } }
 /*# sourceMappingURL=override.css.map */
