@@ -35,123 +35,74 @@ enquireBtns.on('click',function(e){
 
   enquireForm.toggleClass('show');
   if(enquireDiv.hasClass(enquireExpand)) {
-      enquireBtn.html('Close');
+      enquireBtn.html('CLOSE');
 
   } else {
-      enquireBtn.html('Enquire');
+      enquireBtn.html('ENQUIRE');
   }
   e.preventDefault();
 });
 
 // **** Slick Carousel
-// $(function() {
-//   var maxWidth = 641,
-//   slickVar = {
-//     dots: true,
-//     infinite: false,
-//     slidesToShow: 3,
-//     slidesToScroll: 1,
-//     mobileFirst: false,
-//     responsive: [
-//       {
-//         breakpoint: maxWidth,
-//         settings: 'unslick'
-//       }
-//     ]
-//   },
-//   runSlick = function() {
-//     $('.responsive-carousel').slick(slickVar);
-//   };
-//
-//   // slick initialization while document ready
-//   runSlick();
-//
-//   if (!/Mobi/.test(navigator.userAgent)) {
-//     // listen to jQuery's window resize
-//     $(window).resize(function(){
-//         // reinit slick while window's width is less than maximum width (641px)
-//         runSlick();
-//     });
-//   }
-// });
-//
-// $(function() {
-//   var maxWidth = 1024,
-//   slickVar = {
-//     dots: true,
-//     infinite: false,
-//     slidesToShow: 1,
-//     slidesToScroll: 1,
-//     mobileFirst: false,
-//     responsive: [
-//       {
-//         breakpoint: maxWidth,
-//         settings: 'unslick'
-//       }
-//     ]
-//   },
-//   runSlick = function() {
-//     $('.slick-carousel').slick(slickVar);
-//   };
-//
-//   // slick initialization while document ready
-//   runSlick();
-//
-//   if (!/Mobi/.test(navigator.userAgent)) {
-//     // listen to jQuery's window resize
-//     $(window).resize(function(){
-//         // reinit slick while window's width is less than maximum width (641px)
-//         runSlick();
-//     });
-//   }
-// });
-
 $(function() {
-  function slickifyOne(){
-      $('.slick-carousel').not('.slick-initialized').slick({
-          autoplay: false,
-          autoplaySpeed: 4000,
-          delay: 5000,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          speed: 700,
-          dots: true,
-          responsive: [
-              {
-                  breakpoint: 1024,
-                  settings: "unslick"
-              }
-          ]
-      });
-  }
-  slickifyOne();
-
-  function slickifyTwo(){
-      $('.responsive-carousel').not('.slick-initialized').slick({
-          autoplay: false,
-          autoplaySpeed: 4000,
-          delay: 5000,
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          speed: 700,
-          dots: true,
-          responsive: [
-              {
-                  breakpoint: 1024,
-                  settings: "unslick"
-              }
-          ]
-      });
-  }
-  slickifyTwo();
+  doInitSlickifyCarousel();
 
   $(window).resize(function(){
       var $windowWidth = $(window).width();
       if ($windowWidth > 1024) {
-    	   slickifyOne();
-         slickifyTwo();
+    	     doInitSlickifyCarousel();
       }
+
+      mobileCheckSlick();
   });
+
+function doInitSlickifyCarousel () {
+  var CarouselSettings = new Object();
+  CarouselSettings["autoplay"] = false;
+  CarouselSettings["autoplaySpeed"] = 4000;
+  CarouselSettings["delay"] = 5000;
+  CarouselSettings["slidesToShow"] = 1;
+  CarouselSettings["slidesToScroll"] = 1;
+  CarouselSettings["speed"] = 700;
+  CarouselSettings["dots"] = true;
+  CarouselSettings["breakpoint"] = 1024;
+  CarouselSettings["settings"] = "unslick";
+
+  initSlickifyCarousel('.slick-carousel',CarouselSettings);
+
+
+  CarouselSettings["slidesToShow"] = 3;
+  CarouselSettings["dots"] = false;
+  initSlickifyCarousel('.responsive-carousel',CarouselSettings);
+
+
+  mobileCheckSlick();
+}
+
+  function initSlickifyCarousel(elem,CarouselSettings){
+      $(elem).not('.slick-initialized').slick({
+          autoplay: CarouselSettings.autoplay,
+          autoplaySpeed: CarouselSettings.autoplaySpeed,
+          delay: CarouselSettings.delay,
+          slidesToShow: CarouselSettings.slidesToShow,
+          slidesToScroll: CarouselSettings.slidesToScroll,
+          speed: CarouselSettings.speed,
+          dots: CarouselSettings.dots,
+          responsive: [
+              {
+                  breakpoint: CarouselSettings.breakpoint,
+                  settings: CarouselSettings.settings
+              }
+          ]
+      });
+  }
+
+  function mobileCheckSlick(){
+	  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+	   $('.slick-carousel,.responsive-carousel').slick('unslick');
+	  }
+  }
+
 });
 
 // **** overrides

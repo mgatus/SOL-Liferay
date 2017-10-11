@@ -14,7 +14,7 @@ $mainColor: #169B79
     position: static
 
   .half-banner
-    min-height: 70vh
+    min-height: 32vh
 
   .so-menu-toggle
     display: block
@@ -44,12 +44,16 @@ $mainColor: #169B79
     .navbar-nav
       display: block
       float: none
+      ul
+        margin: 0
+        padding: 0
     .special-corner
       display: flex
       flex-direction: column-reverse
       margin: 15px 0
       > *
         margin: 8px 0
+        width: auto
       .input-group.search
         width: 100%
       input[type="text"]
@@ -58,11 +62,17 @@ $mainColor: #169B79
       transform: translateX(0)
       opacity: 1
       z-index: 2500
+      width: 70%
 
   .upper-content
     .banner-upper-content
       .tagline
-        margin-top: 30vh
+        margin-top: 5vh
+        h1
+          font-size: 1.8rem
+        small
+          font-size: 1rem
+          max-width: 100% !important
 
   .lower-content
     .container
@@ -70,7 +80,7 @@ $mainColor: #169B79
 
   .half-banner
     .tagline
-      margin-top: 35vw !important
+      margin-top: 25vw !important
 
   #what-we-offer .blocks
     margin: 5% 0
@@ -98,6 +108,7 @@ $mainColor: #169B79
 
   #how-we-work .is-10
     width: 100%
+    text-align: left !important
 
   #how-we-work article h3
     padding: 0 0 2% 15%
@@ -117,9 +128,24 @@ $mainColor: #169B79
   .enquire-expand
     height: 130vh !important
 
+  #its-us-you-need, #what-we-offer, #how-we-work, #featured-online-course, #what-new-and-upcoming, #our-partners, #our-aim, #delivery-models, #our-aim-v2, #course-development, #services, #contact-us
+    padding: 5%
+
+  #featured-online-course .item .information .description
+    height: auto
+
+  .info-tags .columns
+    padding: 20px 0
+
+  #our-aim .is-2 img
+    margin-top: 10%
+
+  #enquire-div .enquire-content
+    text-align: center
+
 // Small devices (phones, tablets less than 48em)
 // @media (max-width: 47.9em)
-@media (max-width: 1024px)
+@media (max-width: 1024px) and (min-width: 401px)
   // write CSS properties here
   header .container
     width: 100%
@@ -130,7 +156,7 @@ $mainColor: #169B79
     position: static
 
   .half-banner
-    min-height: 70vh
+    min-height: 32vh
 
   .so-menu-toggle
     display: block
@@ -166,6 +192,7 @@ $mainColor: #169B79
       margin: 15px 0
       > *
         margin: 8px 0
+        width: auto
       .input-group.search
         width: 100%
       input[type="text"]
@@ -174,12 +201,18 @@ $mainColor: #169B79
       transform: translateX(0)
       opacity: 1
       z-index: 2500
+      width: 70%
 
 
   .upper-content
     .banner-upper-content
       .tagline
-        margin-top: 30vh
+        margin-top: 5vh
+        h1
+          font-size: 1.8rem
+        small
+          font-size: 1rem
+          max-width: 100% !important
 
   .lower-content
     .container
@@ -187,7 +220,7 @@ $mainColor: #169B79
 
   .half-banner
     .tagline
-      margin-top: 35vw !important
+      margin-top: 10vw !important
 
 
   #what-we-offer .blocks
@@ -215,12 +248,17 @@ $mainColor: #169B79
     position: absolute
     left: 2%
 
+  #how-we-work .is-2 img
+    width: 90%
+    max-width: 90%
 
   #how-we-work .is-10
     width: 100%
+    padding-left: 21%
+    text-align: left !important
 
   #how-we-work article h3
-    padding: 0 0 2% 15%
+    padding: 0
 
   footer .footer-links
     width: 90%
@@ -236,6 +274,21 @@ $mainColor: #169B79
 
   .enquire-expand
     height: 130vh !important
+
+  #its-us-you-need, #what-we-offer, #how-we-work, #featured-online-course, #what-new-and-upcoming, #our-partners, #our-aim, #delivery-models, #our-aim-v2, #course-development, #services, #contact-us
+    padding: 5%
+
+  #featured-online-course .item .information .description
+    height: auto
+
+  .info-tags .columns
+    padding: 20px 0
+
+  #our-aim .is-2 img
+    margin-top: 10%
+
+  #enquire-div .enquire-content
+    text-align: center
 
 // Medium devices (tablets, small laptops less than 62em)
 @media (max-width: 61.9em)
@@ -262,11 +315,16 @@ $mainColor: #169B79
   // .lower-content > *
   //   padding: 0 5%
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
+  #contact-us .column
+    width: 50%
+    flex: none
+  .column
+    hr
+      float: left
 
 
 @media (min-width: 75em)
-
-
 // @media screen and (min-width: 1452px)
 //   header
 //     .container

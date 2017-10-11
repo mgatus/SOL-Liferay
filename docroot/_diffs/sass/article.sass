@@ -40,6 +40,10 @@ strong.main-text-color
     display: block
     float: left
     border: 2px solid $mainColor
+  .linedivide
+    border-bottom: 4px solid #239c7a
+    width: 6%
+    margin: 2% 0
 
 #what-we-offer
   @extend #its-us-you-need
@@ -64,7 +68,7 @@ strong.main-text-color
       color: #666666
       position: relative
       background: #fff
-      min-height: 250px
+      min-height: 310px
 
       h5
         font-weight: 700
@@ -106,6 +110,9 @@ strong.main-text-color
       color: $mainColor
     .is-10
       text-align: center
+    .is-2
+      img
+        margin-top: 40%
 
 #featured-online-course
   @extend #its-us-you-need
@@ -310,6 +317,10 @@ strong.main-text-color
 // +++++++++++++++++++++++ ABOUT ++++++++++++++++++++++++++++//
 #our-aim
   @extend #its-us-you-need
+  padding: 0 0 1%
+  article
+    padding: 0 2%
+    text-align: center
   h4
     color: $mainColor
     margin-bottom: 15px
@@ -320,12 +331,30 @@ strong.main-text-color
   .infograph
     img
       padding-right: 50px
+
+  .about-carousel
+    .item
+      width: 70%
   ul
     list-style: disc !important
     margin-left: 3%
     width: 98%
     li
       margin: 2% 0
+      text-align: left
+
+  ul.slick-dots li
+    margin: 0 5px
+
+  h3
+    font-size: 1.6rem !important
+    text-align: center
+  .is-2
+    padding: 15px
+    img
+      margin-top: 40%
+  .is-10
+    padding-left: 6%
 
 #delivery-models
   @extend #its-us-you-need
@@ -333,10 +362,12 @@ strong.main-text-color
     text-align: center
     .img-tags
       img
-        border-radius: 50%
         margin-bottom: 5%
+        border-radius: 2px
     h5
       color: $mainColor
+  .mini-info
+    margin-bottom: 1%
 
 #products-services
   @extend #solutions
@@ -394,7 +425,7 @@ strong.main-text-color
 // +++++++++++++++++++++++ CONTACT US ++++++++++++++++++++++++++++//
 #contact-us
   @extend #its-us-you-need
-  padding: 0 0 5%
+  padding: 5% 0 5%
   .columns
     margin: 0 auto !important
     .imgdiv
@@ -412,3 +443,4 @@ strong.main-text-color
     address
       display: block
       clear: both
+      font-style: italic
