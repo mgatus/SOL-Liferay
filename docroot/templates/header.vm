@@ -9,7 +9,7 @@
 
       <div class="columns">
         <div class="column is-one-quarter logo">
-          <a class="navbar-brand col-3 so-logo" href="#" title="Site Online">Site Online</a>
+          <a class="navbar-brand col-3 so-logo" href="#" title="Site Online Learning">Site Online</a>
           <!--<img alt="$logo_description" height="$site_logo_height" src="$site_logo" width="$site_logo_width" />-->
         </div>
         <div class="column">

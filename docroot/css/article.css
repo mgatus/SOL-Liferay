@@ -13,7 +13,7 @@ strong.main-text-color {
 }
 
 /* line 16, ../sass/article.sass */
-#its-us-you-need, #what-we-offer, #how-we-work, #featured-online-course, #what-new-and-upcoming, #our-partners, #our-aim, #delivery-models, #our-aim-v2, #course-development, #services, #contact-us {
+#its-us-you-need, #what-we-offer, #how-we-work, #featured-online-course, #what-new-and-upcoming, #our-partners, #our-aim, #delivery-models, #our-aim-v2, #course-development, #services, #contact-us, #blog, #recent-blog {
   padding: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,18 +22,17 @@ strong.main-text-color {
   line-height: 1.5;
 }
 /* line 24, ../sass/article.sass */
-#its-us-you-need .container, #what-we-offer .container, #how-we-work .container, #featured-online-course .container, #what-new-and-upcoming .container, #our-partners .container, #our-aim .container, #delivery-models .container, #our-aim-v2 .container, #course-development .container, #services .container, #contact-us .container {
-  width: 1152px;
+#its-us-you-need .container, #what-we-offer .container, #how-we-work .container, #featured-online-course .container, #what-new-and-upcoming .container, #our-partners .container, #our-aim .container, #delivery-models .container, #our-aim-v2 .container, #course-development .container, #services .container, #contact-us .container, #blog .container, #recent-blog .container {
   max-width: 1152px;
 }
 /* line 31, ../sass/article.sass */
-#its-us-you-need h2, #what-we-offer h2, #how-we-work h2, #featured-online-course h2, #what-new-and-upcoming h2, #our-partners h2, #our-aim h2, #delivery-models h2, #our-aim-v2 h2, #course-development h2, #services h2, #contact-us h2 {
+#its-us-you-need h2, #what-we-offer h2, #how-we-work h2, #featured-online-course h2, #what-new-and-upcoming h2, #our-partners h2, #our-aim h2, #delivery-models h2, #our-aim-v2 h2, #course-development h2, #services h2, #contact-us h2, #blog h2, #recent-blog h2 {
   color: #666666;
   font-family: "Montserrat", sans-serif;
   font-size: 2rem !important;
 }
 /* line 35, ../sass/article.sass */
-#its-us-you-need hr, #what-we-offer hr, #how-we-work hr, #featured-online-course hr, #what-new-and-upcoming hr, #our-partners hr, #our-aim hr, #delivery-models hr, #our-aim-v2 hr, #course-development hr, #services hr, #contact-us hr {
+#its-us-you-need hr, #what-we-offer hr, #how-we-work hr, #featured-online-course hr, #what-new-and-upcoming hr, #our-partners hr, #our-aim hr, #delivery-models hr, #our-aim-v2 hr, #course-development hr, #services hr, #contact-us hr, #blog hr, #recent-blog hr {
   width: 72px;
   height: 2px;
   background-color: #169B79;
@@ -43,7 +42,7 @@ strong.main-text-color {
   border: 2px solid #169B79;
 }
 /* line 43, ../sass/article.sass */
-#its-us-you-need .linedivide, #what-we-offer .linedivide, #how-we-work .linedivide, #featured-online-course .linedivide, #what-new-and-upcoming .linedivide, #our-partners .linedivide, #our-aim .linedivide, #delivery-models .linedivide, #our-aim-v2 .linedivide, #course-development .linedivide, #services .linedivide, #contact-us .linedivide {
+#its-us-you-need .linedivide, #what-we-offer .linedivide, #how-we-work .linedivide, #featured-online-course .linedivide, #what-new-and-upcoming .linedivide, #our-partners .linedivide, #our-aim .linedivide, #delivery-models .linedivide, #our-aim-v2 .linedivide, #course-development .linedivide, #services .linedivide, #contact-us .linedivide, #blog .linedivide, #recent-blog .linedivide {
   border-bottom: 4px solid #239c7a;
   width: 6%;
   margin: 2% 0;
@@ -628,6 +627,93 @@ strong.main-text-color {
   display: block;
   clear: both;
   font-style: italic;
+}
+
+/* line 449, ../sass/article.sass */
+#blog {
+  padding: 2% 0;
+}
+/* line 452, ../sass/article.sass */
+#blog .avatar {
+  width: 100%;
+  display: block;
+  float: none;
+  margin-bottom: 15px;
+}
+/* line 457, ../sass/article.sass */
+#blog .avatar .avatar-img {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #ccc;
+  float: left;
+  margin-right: 15px;
+}
+/* line 464, ../sass/article.sass */
+#blog h3 {
+  font-size: 2rem;
+  color: #169B79;
+}
+/* line 467, ../sass/article.sass */
+#blog .blog-content {
+  margin-bottom: 15px;
+}
+/* line 469, ../sass/article.sass */
+#blog .blog-content p {
+  margin: 15px 0;
+}
+/* line 471, ../sass/article.sass */
+#blog .blog-content ul {
+  list-style: disc;
+}
+/* line 473, ../sass/article.sass */
+#blog #share {
+  float: right;
+}
+
+/* line 478, ../sass/article.sass */
+#recent-blog {
+  padding: 2% 0;
+}
+/* line 481, ../sass/article.sass */
+#recent-blog .line {
+  border-top: 2px solid #ccc;
+  padding-top: 30px;
+}
+/* line 485, ../sass/article.sass */
+#recent-blog .dropdown button {
+  background: transparent;
+  color: #666666;
+  border: none;
+}
+/* line 489, ../sass/article.sass */
+#recent-blog select {
+  background: transparent;
+  color: #666666;
+  border: none;
+}
+/* line 493, ../sass/article.sass */
+#recent-blog input.blog-search {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/* line 498, ../sass/article.sass */
+#recent-blog .blog-thumb h4 {
+  color: #169B79;
+}
+/* line 500, ../sass/article.sass */
+#recent-blog .excerpt {
+  font-size: 0.8rem;
+  height: 80px;
+  overflow: hidden;
+}
+/* line 504, ../sass/article.sass */
+#recent-blog .readmore {
+  margin: 3% auto;
+  display: block;
+  width: 120px;
 }
 
 /*# sourceMappingURL=article.css.map */

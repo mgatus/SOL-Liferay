@@ -14,30 +14,31 @@
   /* line 16, ../sass/mq.sass */
   .half-banner {
     min-height: 32vh;
+    min-height: 350px;
   }
 
-  /* line 19, ../sass/mq.sass */
+  /* line 20, ../sass/mq.sass */
   .so-menu-toggle {
     display: block;
   }
 
-  /* line 22, ../sass/mq.sass */
+  /* line 23, ../sass/mq.sass */
   .so-logo {
     background-position: 15% 0;
     margin-left: 15%;
   }
 
-  /* line 26, ../sass/mq.sass */
+  /* line 27, ../sass/mq.sass */
   .block-overlay {
     display: block;
   }
 
-  /* line 29, ../sass/mq.sass */
+  /* line 30, ../sass/mq.sass */
   .tagline {
     margin: 0 5%;
   }
 
-  /* line 32, ../sass/mq.sass */
+  /* line 33, ../sass/mq.sass */
   #navbarNav {
     position: fixed;
     top: 0;
@@ -54,17 +55,17 @@
     -webkit-transform: translateX(-999px);
             transform: translateX(-999px);
   }
-  /* line 44, ../sass/mq.sass */
+  /* line 45, ../sass/mq.sass */
   #navbarNav .navbar-nav {
     display: block;
     float: none;
   }
-  /* line 47, ../sass/mq.sass */
+  /* line 48, ../sass/mq.sass */
   #navbarNav .navbar-nav ul {
     margin: 0;
     padding: 0;
   }
-  /* line 50, ../sass/mq.sass */
+  /* line 51, ../sass/mq.sass */
   #navbarNav .special-corner {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -75,20 +76,20 @@
             flex-direction: column-reverse;
     margin: 15px 0;
   }
-  /* line 54, ../sass/mq.sass */
+  /* line 55, ../sass/mq.sass */
   #navbarNav .special-corner > * {
     margin: 8px 0;
     width: auto;
   }
-  /* line 57, ../sass/mq.sass */
+  /* line 58, ../sass/mq.sass */
   #navbarNav .special-corner .input-group.search {
     width: 100%;
   }
-  /* line 59, ../sass/mq.sass */
+  /* line 60, ../sass/mq.sass */
   #navbarNav .special-corner input[type="text"] {
     width: 100%;
   }
-  /* line 61, ../sass/mq.sass */
+  /* line 62, ../sass/mq.sass */
   #navbarNav.show {
     -webkit-transform: translateX(0);
             transform: translateX(0);
@@ -97,166 +98,171 @@
     width: 70%;
   }
 
-  /* line 69, ../sass/mq.sass */
+  /* line 70, ../sass/mq.sass */
   .upper-content .banner-upper-content .tagline {
     margin-top: 5vh;
   }
-  /* line 71, ../sass/mq.sass */
+  /* line 72, ../sass/mq.sass */
   .upper-content .banner-upper-content .tagline h1 {
     font-size: 1.8rem;
   }
-  /* line 73, ../sass/mq.sass */
+  /* line 74, ../sass/mq.sass */
   .upper-content .banner-upper-content .tagline small {
     font-size: 1rem;
     max-width: 100% !important;
   }
 
-  /* line 78, ../sass/mq.sass */
+  /* line 79, ../sass/mq.sass */
   .lower-content .container {
     padding: 0 30px;
   }
 
-  /* line 82, ../sass/mq.sass */
+  /* line 83, ../sass/mq.sass */
   .half-banner .tagline {
     margin-top: 25vw !important;
   }
 
-  /* line 85, ../sass/mq.sass */
+  /* line 86, ../sass/mq.sass */
   #what-we-offer .blocks {
     margin: 5% 0;
   }
 
-  /* line 88, ../sass/mq.sass */
+  /* line 89, ../sass/mq.sass */
   #enquire-div {
     height: 34vh;
     padding: 15% 0;
   }
 
-  /* line 92, ../sass/mq.sass */
+  /* line 93, ../sass/mq.sass */
   #enquire-div .enquire-content {
     display: block;
   }
 
-  /* line 95, ../sass/mq.sass */
+  /* line 96, ../sass/mq.sass */
   #enquire-div .form-enquire {
     width: 90% !important;
   }
 
-  /* line 98, ../sass/mq.sass */
+  /* line 99, ../sass/mq.sass */
   #enquire-div .enquire-content .button {
     width: auto !important;
   }
 
-  /* line 102, ../sass/mq.sass */
+  /* line 103, ../sass/mq.sass */
   #how-we-work article {
     width: 100% !important;
   }
 
-  /* line 105, ../sass/mq.sass */
+  /* line 106, ../sass/mq.sass */
   #how-we-work .is-2 {
     position: absolute;
     left: 2%;
   }
 
-  /* line 109, ../sass/mq.sass */
+  /* line 110, ../sass/mq.sass */
   #how-we-work .is-10 {
     width: 100%;
     text-align: left !important;
   }
 
-  /* line 113, ../sass/mq.sass */
+  /* line 114, ../sass/mq.sass */
   #how-we-work article h3 {
     padding: 0 0 2% 15%;
   }
 
-  /* line 116, ../sass/mq.sass */
+  /* line 117, ../sass/mq.sass */
   footer .footer-links {
     width: 90%;
     display: block;
     text-align: center;
   }
 
-  /* line 121, ../sass/mq.sass */
+  /* line 122, ../sass/mq.sass */
   .social-icons {
     width: 10% !important;
   }
 
-  /* line 124, ../sass/mq.sass */
+  /* line 125, ../sass/mq.sass */
   #featured-online-course .item {
     width: 100%;
     margin-left: 0;
   }
 
-  /* line 128, ../sass/mq.sass */
+  /* line 129, ../sass/mq.sass */
   .enquire-expand {
     height: 130vh !important;
   }
 
-  /* line 131, ../sass/mq.sass */
+  /* line 132, ../sass/mq.sass */
   #its-us-you-need, #what-we-offer, #how-we-work, #featured-online-course, #what-new-and-upcoming, #our-partners, #our-aim, #delivery-models, #our-aim-v2, #course-development, #services, #contact-us {
     padding: 5%;
   }
 
-  /* line 134, ../sass/mq.sass */
+  /* line 135, ../sass/mq.sass */
   #featured-online-course .item .information .description {
     height: auto;
   }
 
-  /* line 137, ../sass/mq.sass */
+  /* line 138, ../sass/mq.sass */
   .info-tags .columns {
     padding: 20px 0;
   }
 
-  /* line 140, ../sass/mq.sass */
+  /* line 141, ../sass/mq.sass */
   #our-aim .is-2 img {
     margin-top: 10%;
   }
 
-  /* line 143, ../sass/mq.sass */
+  /* line 144, ../sass/mq.sass */
   #enquire-div .enquire-content {
     text-align: center;
   }
+
+  /* line 147, ../sass/mq.sass */
+  .journal-content-article .div-content {
+    padding: 0 30px;
+  }
 }
 @media (max-width: 1024px) and (min-width: 401px) {
-  /* line 150, ../sass/mq.sass */
+  /* line 154, ../sass/mq.sass */
   header .container {
     width: 100%;
     padding-top: 10px !important;
     padding-bottom: 10px !important;
   }
 
-  /* line 155, ../sass/mq.sass */
+  /* line 159, ../sass/mq.sass */
   header.fixed-top {
     position: static;
   }
 
-  /* line 158, ../sass/mq.sass */
+  /* line 162, ../sass/mq.sass */
   .half-banner {
     min-height: 32vh;
   }
 
-  /* line 161, ../sass/mq.sass */
+  /* line 165, ../sass/mq.sass */
   .so-menu-toggle {
     display: block;
   }
 
-  /* line 164, ../sass/mq.sass */
+  /* line 168, ../sass/mq.sass */
   .so-logo {
     background-position: 15% 0;
     margin-left: 15%;
   }
 
-  /* line 168, ../sass/mq.sass */
+  /* line 172, ../sass/mq.sass */
   .tagline {
     margin: 0 5%;
   }
 
-  /* line 171, ../sass/mq.sass */
+  /* line 175, ../sass/mq.sass */
   .block-overlay {
     display: block;
   }
 
-  /* line 174, ../sass/mq.sass */
+  /* line 178, ../sass/mq.sass */
   #navbarNav {
     position: fixed;
     top: 0;
@@ -273,12 +279,12 @@
     -webkit-transform: translateX(-999px);
             transform: translateX(-999px);
   }
-  /* line 186, ../sass/mq.sass */
+  /* line 190, ../sass/mq.sass */
   #navbarNav .navbar-nav {
     display: block;
     float: none;
   }
-  /* line 189, ../sass/mq.sass */
+  /* line 193, ../sass/mq.sass */
   #navbarNav .special-corner {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -289,20 +295,20 @@
             flex-direction: column-reverse;
     margin: 15px 0;
   }
-  /* line 193, ../sass/mq.sass */
+  /* line 197, ../sass/mq.sass */
   #navbarNav .special-corner > * {
     margin: 8px 0;
     width: auto;
   }
-  /* line 196, ../sass/mq.sass */
+  /* line 200, ../sass/mq.sass */
   #navbarNav .special-corner .input-group.search {
     width: 100%;
   }
-  /* line 198, ../sass/mq.sass */
+  /* line 202, ../sass/mq.sass */
   #navbarNav .special-corner input[type="text"] {
     width: 100%;
   }
-  /* line 200, ../sass/mq.sass */
+  /* line 204, ../sass/mq.sass */
   #navbarNav.show {
     -webkit-transform: translateX(0);
             transform: translateX(0);
@@ -311,160 +317,176 @@
     width: 70%;
   }
 
-  /* line 209, ../sass/mq.sass */
+  /* line 213, ../sass/mq.sass */
   .upper-content .banner-upper-content .tagline {
     margin-top: 5vh;
   }
-  /* line 211, ../sass/mq.sass */
+  /* line 215, ../sass/mq.sass */
   .upper-content .banner-upper-content .tagline h1 {
     font-size: 1.8rem;
   }
-  /* line 213, ../sass/mq.sass */
+  /* line 217, ../sass/mq.sass */
   .upper-content .banner-upper-content .tagline small {
     font-size: 1rem;
     max-width: 100% !important;
   }
 
-  /* line 218, ../sass/mq.sass */
+  /* line 222, ../sass/mq.sass */
   .lower-content .container {
     padding: 0 30px;
   }
 
-  /* line 222, ../sass/mq.sass */
+  /* line 226, ../sass/mq.sass */
   .half-banner .tagline {
     margin-top: 10vw !important;
   }
 
-  /* line 226, ../sass/mq.sass */
+  /* line 230, ../sass/mq.sass */
   #what-we-offer .blocks {
     margin: 5% 0;
   }
 
-  /* line 229, ../sass/mq.sass */
+  /* line 233, ../sass/mq.sass */
   #enquire-div {
     height: 34vh;
     padding: 15% 0;
   }
 
-  /* line 233, ../sass/mq.sass */
+  /* line 237, ../sass/mq.sass */
   #enquire-div .enquire-content {
     display: block;
   }
 
-  /* line 236, ../sass/mq.sass */
+  /* line 240, ../sass/mq.sass */
   #enquire-div .form-enquire {
     width: 90% !important;
   }
 
-  /* line 239, ../sass/mq.sass */
+  /* line 243, ../sass/mq.sass */
   #enquire-div .enquire-content .button {
     width: auto !important;
   }
 
-  /* line 243, ../sass/mq.sass */
+  /* line 247, ../sass/mq.sass */
   #how-we-work article {
     width: 100% !important;
     margin-top: 30px;
   }
 
-  /* line 247, ../sass/mq.sass */
+  /* line 251, ../sass/mq.sass */
   #how-we-work .is-2 {
     position: absolute;
     left: 2%;
   }
 
-  /* line 251, ../sass/mq.sass */
+  /* line 255, ../sass/mq.sass */
   #how-we-work .is-2 img {
     width: 90%;
     max-width: 90%;
   }
 
-  /* line 255, ../sass/mq.sass */
+  /* line 259, ../sass/mq.sass */
   #how-we-work .is-10 {
     width: 100%;
     padding-left: 21%;
     text-align: left !important;
   }
 
-  /* line 260, ../sass/mq.sass */
+  /* line 264, ../sass/mq.sass */
   #how-we-work article h3 {
     padding: 0;
   }
 
-  /* line 263, ../sass/mq.sass */
+  /* line 267, ../sass/mq.sass */
   footer .footer-links {
     width: 90%;
     display: block;
     text-align: center;
   }
 
-  /* line 268, ../sass/mq.sass */
+  /* line 272, ../sass/mq.sass */
   .social-icons {
     width: 10% !important;
   }
 
-  /* line 271, ../sass/mq.sass */
+  /* line 275, ../sass/mq.sass */
   #featured-online-course .item {
     width: 100%;
     margin-left: 0;
   }
 
-  /* line 275, ../sass/mq.sass */
+  /* line 279, ../sass/mq.sass */
   .enquire-expand {
     height: 130vh !important;
   }
 
-  /* line 278, ../sass/mq.sass */
+  /* line 282, ../sass/mq.sass */
   #its-us-you-need, #what-we-offer, #how-we-work, #featured-online-course, #what-new-and-upcoming, #our-partners, #our-aim, #delivery-models, #our-aim-v2, #course-development, #services, #contact-us {
     padding: 5%;
   }
 
-  /* line 281, ../sass/mq.sass */
+  /* line 285, ../sass/mq.sass */
   #featured-online-course .item .information .description {
     height: auto;
   }
 
-  /* line 284, ../sass/mq.sass */
+  /* line 288, ../sass/mq.sass */
   .info-tags .columns {
     padding: 20px 0;
   }
 
-  /* line 287, ../sass/mq.sass */
+  /* line 291, ../sass/mq.sass */
   #our-aim .is-2 img {
     margin-top: 10%;
   }
 
-  /* line 290, ../sass/mq.sass */
+  /* line 294, ../sass/mq.sass */
   #enquire-div .enquire-content {
     text-align: center;
   }
+
+  /* line 297, ../sass/mq.sass */
+  .journal-content-article .div-content {
+    padding: 0 30px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 401px) and (orientation: landscape) {
+  /* line 301, ../sass/mq.sass */
+  .half-banner {
+    min-height: 270px;
+  }
+
+  /* line 304, ../sass/mq.sass */
+  .journal-content-article .div-content {
+    padding: 0 30px;
+  }
 }
 @media (max-width: 61.9em) {
-  /* line 295, ../sass/mq.sass */
+  /* line 310, ../sass/mq.sass */
   .slick-prev {
     left: -50px;
   }
 
-  /* line 298, ../sass/mq.sass */
+  /* line 313, ../sass/mq.sass */
   header .container {
     width: 100%;
     max-width: 100%;
   }
 }
 @media (max-width: 74.9em) {
-  /* line 308, ../sass/mq.sass */
+  /* line 323, ../sass/mq.sass */
   .slick-prev {
     left: -50px;
   }
 
-  /* line 311, ../sass/mq.sass */
+  /* line 326, ../sass/mq.sass */
   header .container {
     width: 100%;
     max-width: 100%;
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  /* line 319, ../sass/mq.sass */
+  /* line 334, ../sass/mq.sass */
   #contact-us .column {
     width: 50%;
     -webkit-box-flex: 0;
@@ -472,7 +494,7 @@
             flex: none;
   }
 
-  /* line 323, ../sass/mq.sass */
+  /* line 338, ../sass/mq.sass */
   .column hr {
     float: left;
   }

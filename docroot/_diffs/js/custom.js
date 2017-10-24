@@ -43,6 +43,11 @@ enquireBtns.on('click',function(e){
   e.preventDefault();
 });
 
+// **** Social Share
+$("#share").jsSocials({
+    shares: [ "facebook","linkedin", "twitter", "googleplus" ]
+});
+
 // **** Slick Carousel
 $(function() {
   doInitSlickifyCarousel();
